@@ -1,0 +1,1198 @@
+TiDhivehiSites
+v7
+r0
+t302005084.374494
+cCheck dependencies
+cProcessInfoPlistFile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Info.plist iDhivehiSites-Info.plist
+cProcessPCH /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch.gch iDhivehiSites_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/main.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesAppDelegate.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesViewController.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/newSite.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/newSite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites normal i386
+cGenerateDSYMFile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app.dSYM /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites
+cCopyStringsFile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+cCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/MainWindow.xib
+cCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/iDhivehiSitesViewController.xib
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/normalbg.png normalbg.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/addnew.png addnew.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/cellb.png cellb.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/cellSelected.png cellSelected.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/avas3__0.TTF avas3__0.TTF
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/Faruma.ttf Faruma.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/faseyha.TTF faseyha.TTF
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/globe.png globe.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/haama.png haama.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/haveeru.png haveeru.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/jazeera.png jazeera.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/leave_arrow.png leave_arrow.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/loading.png loading.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/mdp.png mdp.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/miadhu.png miadhu.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/minivan.png minivan.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/muraasil.png muraasil.png
+cCpResource "build/Release-iphonesimulator/iDhivehiSites.app/Mv Eamaan XP.ttf" "Mv Eamaan XP.ttf"
+cCpResource "build/Release-iphonesimulator/iDhivehiSites.app/Mv Iyyu Formal.ttf" "Mv Iyyu Formal.ttf"
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvElaafNormal.ttf MvElaafNormal.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/newsicon.png newsicon.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/Tahoma.ttf Tahoma.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/Thaana1U.ttf Thaana1U.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/new.png new.png
+cCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/newSite.xib
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/back.png back.png
+cCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.xib
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/forward.png forward.png
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/home.png home.png
+cCpResource "build/Release-iphonesimulator/iDhivehiSites.app/Mv MAG Round.otf.ttf" "Mv MAG Round.otf.ttf"
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvElaafLite.ttf MvElaafLite.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/mvfaseyha.otf mvfaseyha.otf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvIyyuNala.ttf MvIyyuNala.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvIyyuNormal.ttf MvIyyuNormal.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvLadyLuck.ttf MvLadyLuck.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRound.ttf MvMAGRound.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRoundHollow.ttf MvMAGRoundHollow.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRoundXBold.ttf MvMAGRoundXBold.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/RANDHOO.TTF RANDHOO.TTF
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/maldivian72.jpg maldivian72.jpg
+cCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/A_REETHI.ttf A_REETHI.ttf
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/ILHAM.TTF ILHAM.TTF
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/maldivian57.jpg maldivian57.jpg
+cCpResource build/Release-iphonesimulator/iDhivehiSites.app/P_Faruma.ttf P_Faruma.ttf
+cTouch /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C47AD260000000000000132
+t1279765798
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
+c000000004BF4CBF90000000000001A3B
+t1274334201
+s6715
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/A_REETHI.ttf
+c0000000047A788D00000000000006660
+t1202161872
+s26208
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.h
+c000000004C4C0153000000000000027F
+t1280049491
+s639
+i<UIKit/UIKit.h>
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.m
+c000000004C4C0B410000000000000B53
+t1280052033
+s2899
+i"browserView.h"
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.xib
+c000000004C4C0CC50000000000006FEF
+t1280052421
+s28655
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesAppDelegate.h
+c000000004C4BEB1B000000000000028E
+t1280043803
+s654
+i<UIKit/UIKit.h>
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesAppDelegate.m
+c000000004C4BEC220000000000000377
+t1280044066
+s887
+i"iDhivehiSitesAppDelegate.h"
+i"iDhivehiSitesViewController.h"
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesViewController.h
+c000000004C4BE8B400000000000002CE
+t1280043188
+s718
+i<UIKit/UIKit.h>
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesViewController.m
+c000000004C4BF764000000000000254E
+t1280046948
+s9550
+i"iDhivehiSitesViewController.h"
+i"newSite.h"
+i"browserView.h"
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/newSite.h
+c000000004C4BF45B00000000000001AE
+t1280046171
+s430
+i<UIKit/UIKit.h>
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/newSite.m
+c000000004C4C14EE0000000000000F89
+t1280054510
+s3977
+i"newSite.h"
+i"browserView.h"
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Faruma.ttf
+c0000000047A7A422000000000000C160
+t1202168866
+s49504
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/ILHAM.TTF
+c00000000364F03980000000000005F94
+t911147928
+s24468
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv Eamaan XP.ttf
+c00000000473293A0000000000000672C
+t1194496928
+s26412
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv Iyyu Formal.ttf
+c000000004334F7F8000000000000468C
+t1127544824
+s18060
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv MAG Round.otf.ttf
+c000000004708690400000000000069D0
+t1191733508
+s27088
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvElaafLite.ttf
+c0000000047A7A4F6000000000000623C
+t1202169078
+s25148
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvElaafNormal.ttf
+c0000000047A7A4FE00000000000063E4
+t1202169086
+s25572
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvIyyuNala.ttf
+c0000000047A7A5040000000000006274
+t1202169092
+s25204
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvIyyuNormal.ttf
+c0000000047A7A50A0000000000006460
+t1202169098
+s25696
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvLadyLuck.ttf
+c0000000047A7A5100000000000006DBC
+t1202169104
+s28092
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRound.ttf
+c0000000047A7A51400000000000069D0
+t1202169108
+s27088
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRoundHollow.ttf
+c0000000047A7A5180000000000009230
+t1202169112
+s37424
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRoundXBold.ttf
+c0000000047A7A51E000000000000676C
+t1202169118
+s26476
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/P_Faruma.ttf
+c0000000047A78802000000000000C160
+t1202161666
+s49504
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/RANDHOO.TTF
+c000000003C82907E0000000000005AD0
+t1015189630
+s23248
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Tahoma.ttf
+c000000004A5EAFFE00000000000A64A0
+t1247719422
+s681120
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Thaana1U.ttf
+c0000000047A7A5280000000000017B5C
+t1202169128
+s97116
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/addnew.png
+c000000004C49F3DC0000000000000739
+t1279914972
+s1849
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/avas3__0.TTF
+c00000000312745500000000000005F78
+t824657232
+s24440
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/back.png
+c000000004C4BF3AA00000000000006A5
+t1280045994
+s1701
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app
+t1280312284
+s1734
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app.dSYM
+t1280312282
+s102
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/A_REETHI.ttf
+t1280312284
+s26208
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Faruma.ttf
+t1280312283
+s49504
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/ILHAM.TTF
+t1280312284
+s24468
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Info.plist
+t1280312281
+s1050
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Mv Eamaan XP.ttf
+t1280312283
+s26412
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Mv Iyyu Formal.ttf
+t1280312283
+s18060
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Mv MAG Round.otf.ttf
+t1280312283
+s27088
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/MvElaafLite.ttf
+t1280312283
+s25148
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/MvElaafNormal.ttf
+t1280312283
+s25572
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/MvIyyuNala.ttf
+t1280312283
+s25204
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/MvIyyuNormal.ttf
+t1280312283
+s25696
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/MvLadyLuck.ttf
+t1280312283
+s28092
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRound.ttf
+t1280312283
+s27088
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRoundHollow.ttf
+t1280312283
+s37424
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRoundXBold.ttf
+t1280312283
+s26476
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/P_Faruma.ttf
+t1280312284
+s49504
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/PkgInfo
+t1280312281
+s8
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/RANDHOO.TTF
+t1280312283
+s23248
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Tahoma.ttf
+t1280312283
+s681120
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Thaana1U.ttf
+t1280312283
+s97116
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/addnew.png
+t1280312283
+s1849
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/avas3__0.TTF
+t1280312283
+s24440
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/back.png
+t1280312283
+s1701
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/browserView.nib
+t1280312284
+s2385
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/cell.nib
+t1280312284
+s1739
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/cellSelected.png
+t1280312283
+s3365
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/cellb.png
+t1280312283
+s44679
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj/InfoPlist.strings
+t1280312282
+s126
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj/MainWindow.nib
+t1280312283
+s1644
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj/iDhivehiSitesViewController.nib
+t1280312283
+s1905
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/faseyha.TTF
+t1280312283
+s24584
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/forward.png
+t1280312283
+s1774
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/globe.png
+t1280312283
+s7754
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/haama.png
+t1280312283
+s15814
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/haveeru.png
+t1280312283
+s10407
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/home.png
+t1280312283
+s2015
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites
+t1280312282
+s44048
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/jazeera.png
+t1280312283
+s10425
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/leave_arrow.png
+t1280312283
+s63193
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/loading.png
+t1280312283
+s4517
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/maldivian57.jpg
+t1280312284
+s18365
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/maldivian72.jpg
+t1280312283
+s9127
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/mdp.png
+t1280312283
+s6741
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/miadhu.png
+t1280312283
+s27891
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/minivan.png
+t1280312283
+s30795
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/muraasil.png
+t1280312283
+s10716
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/mvfaseyha.otf
+t1280312283
+s21680
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/new.png
+t1280312283
+s2621
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/newSite.nib
+t1280312283
+s2788
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/newsicon.png
+t1280312283
+s221099
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/normalbg.png
+t1280312283
+s261940
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o
+t1280312282
+s46632
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSites.LinkFileList
+c000000004C5003D9000000000000030F
+t1280312281
+s783
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesAppDelegate.o
+t1280312282
+s48752
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesViewController.o
+t1280312282
+s63664
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/main.o
+t1280312282
+s6308
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/newSite.o
+t1280312282
+s45688
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib
+c000000004C4A05AA00000000000025F7
+t1279919530
+s9719
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cellSelected.png
+c000000004C49F7AF0000000000000D25
+t1279915951
+s3365
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cellb.png
+c000000004C4A0281000000000000AE87
+t1279918721
+s44679
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/InfoPlist.strings
+c000000004C49F0E40000000000000066
+t1279914212
+s102
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/MainWindow.xib
+c000000004C4BECE30000000000007045
+t1280044259
+s28741
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/iDhivehiSitesViewController.xib
+c000000004C4C12340000000000005A21
+t1280053812
+s23073
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/faseyha.TTF
+c000000003130883A0000000000006008
+t825264186
+s24584
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/forward.png
+c000000004C4BF4F800000000000006EE
+t1280046328
+s1774
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/globe.png
+c000000004C381BEE0000000000001E4A
+t1278745582
+s7754
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/haama.png
+c000000004BCBC6C20000000000003DC6
+t1271645890
+s15814
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/haveeru.png
+c000000004BCBC5C800000000000028A7
+t1271645640
+s10407
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/home.png
+c000000004C4BF4D600000000000007DF
+t1280046294
+s2015
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/iDhivehiSites_Prefix.pch
+c000000004C49F0E4000000000000014D
+t1279914212
+s333
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<Availability.h>
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/jazeera.png
+c000000004BCBC76600000000000028B9
+t1271646054
+s10425
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/leave_arrow.png
+c0000000048F35E5E000000000000F6D9
+t1223908958
+s63193
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/loading.png
+c000000004BC45AB200000000000011A5
+t1271159474
+s4517
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/main.m
+c000000004C49F0E40000000000000170
+t1279914212
+s368
+i<UIKit/UIKit.h>
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/maldivian57.jpg
+c000000004C4D08B300000000000047BD
+t1280116915
+s18365
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/maldivian72.jpg
+c000000004BDA81CA00000000000023A7
+t1272611274
+s9127
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/mdp.png
+c000000004BCBC6180000000000001A55
+t1271645720
+s6741
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/miadhu.png
+c000000004BCBC69E0000000000006CF3
+t1271645854
+s27891
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/minivan.png
+c000000004BCBC66E000000000000784B
+t1271645806
+s30795
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/muraasil.png
+c000000004BCBC5E800000000000029DC
+t1271645672
+s10716
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/mvfaseyha.otf
+c0000000046FCBFAE00000000000054B0
+t1190969262
+s21680
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/new.png
+c000000004C4A6A960000000000000A3D
+t1279945366
+s2621
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/newSite.xib
+c000000004C4BF5F4000000000000777D
+t1280046580
+s30589
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/newsicon.png
+c000000004BC462E20000000000035FAB
+t1271161570
+s221099
+
+N/Users/sofwathullahmohamed/Desktop/iDhivehiSites/normalbg.png
+c000000004C49E90B000000000003FF34
+t1279912203
+s261940
+
+N/var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch.gch
+t1280312282
+s14941200
+
+NiDhivehiSites-Info.plist
+c000000004C5003D90000000000000674
+t1280312281
+s1652
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302005081#302005081#0(0"0(0#1#0"32651513917735028#0"0#
+
+CCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302005082.525201
+e302005082.681403
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.m302005082#302005082#0(0"0(0#0#70"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.m8607236416#2214"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/include -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch -c /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.m -o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o0#
+
+CCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesAppDelegate.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302005082.247433
+e302005082.363209
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesAppDelegate.o
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesAppDelegate.m302005082#302005082#0(0"0(0#0#83"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesAppDelegate.m8608859744#2240"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/include -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch -c /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesAppDelegate.m -o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesAppDelegate.o0#
+
+CCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesViewController.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302005082.315144
+e302005082.581647
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesViewController.o
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesViewController.m302005082#302005082#0(0"0(0#0#86"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesViewController.m8608418368#2246"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/include -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch -c /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/iDhivehiSitesViewController.m -o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesViewController.o0#
+
+CCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/main.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302005082.245895
+e302005082.315044
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/main.o
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/main.m302005082#302005082#0(0"0(0#0#55"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/main.m8609656992#2192"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/include -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch -c /Users/sofwathullahmohamed/Desktop/iDhivehiSites/main.m -o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/main.o0#
+
+CCompileC build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/newSite.o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/newSite.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302005082.363312
+e302005082.525108
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/newSite.o
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/newSite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/newSite.m302005082#302005082#0(0"0(0#0#66"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/newSite.m8601310528#2206"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/include -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch -c /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/newSite.m -o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/newSite.o0#
+
+CCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.xib
+s302005083.663592
+e302005084.316814
+r1
+xCompileXIB
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.xib
+lSLF07#2@34"CompileXIB Classes/browserView.xib302005083#302005084#0(0"0(0#0#72"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.xib8606802048#618"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/browserView.nib /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Classes/browserView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib
+s302005083.867544
+e302005084.369486
+r1
+xCompileXIB
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib:-1: warning: The 'nibLoadedCell' outlet of 'File's Owner' is connected to 'Table View Cell' but 'nibLoadedCell' is no longer defined on RootViewController.
+lSLF07#2@19"CompileXIB cell.xib302005083#302005084#0(255"/* com.apple.ibtool.document.warnings *//Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib:-1: warning: The 'nibLoadedCell' outlet of 'File's Owner' is connected to 'Table View Cell' but 'nibLoadedCell' is no longer defined on RootViewController.1(22@142"The 'nibLoadedCell' outlet of 'File's Owner' is connected to 'Table View Cell' but 'nibLoadedCell' is no longer defined on RootViewController.302005084#18446744073709551615#0#0(6@57"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib301612330#18446744073709551615#0#18446744073709551615#0#0"0(0#0#57"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib8607401664#596"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/cell.nib /Users/sofwathullahmohamed/Desktop/iDhivehiSites/cell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/MainWindow.xib
+s302005082.772436
+e302005083.253518
+r1
+xCompileXIB
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/MainWindow.xib
+lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib302005082#302005083#0(0"0(0#0#72"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/MainWindow.xib8608408448#626"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj/MainWindow.nib /Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/iDhivehiSitesViewController.xib
+s302005082.960403
+e302005083.651638
+r1
+xCompileXIB
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/iDhivehiSitesViewController.xib
+lSLF07#2@51"CompileXIB en.lproj/iDhivehiSitesViewController.xib302005082#302005083#0(0"0(0#0#89"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/iDhivehiSitesViewController.xib8608127744#660"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj/iDhivehiSitesViewController.nib /Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/iDhivehiSitesViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/sofwathullahmohamed/Desktop/iDhivehiSites/newSite.xib
+s302005083.317466
+e302005083.845958
+r1
+xCompileXIB
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/newSite.xib
+lSLF07#2@22"CompileXIB newSite.xib302005083#302005083#0(0"0(0#0#60"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/newSite.xib8603778240#602"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/newSite.nib /Users/sofwathullahmohamed/Desktop/iDhivehiSites/newSite.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCopyStringsFile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+s302005082.771534
+e302005082.960210
+r1
+xCopyStringsFile
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj/InfoPlist.strings
+xen.lproj/InfoPlist.strings
+lSLF07#2@31"Copy en.lproj/InfoPlist.strings302005082#302005082#0(0"0(0#0#75"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/en.lproj/InfoPlist.strings8608513536#511"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary en.lproj/InfoPlist.strings --outdir /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/en.lproj0#
+
+CCpResource "build/Release-iphonesimulator/iDhivehiSites.app/Mv Eamaan XP.ttf" "Mv Eamaan XP.ttf"
+s302005083.297780
+e302005083.313246
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/Mv Eamaan XP.ttf
+xMv Eamaan XP.ttf
+lSLF07#2@21"Copy Mv Eamaan XP.ttf302005083#302005083#0(0"0(0#0#65"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv Eamaan XP.ttf8603146336#521"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv Eamaan XP.ttf" /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource "build/Release-iphonesimulator/iDhivehiSites.app/Mv Iyyu Formal.ttf" "Mv Iyyu Formal.ttf"
+s302005083.299539
+e302005083.324135
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/Mv Iyyu Formal.ttf
+xMv Iyyu Formal.ttf
+lSLF07#2@23"Copy Mv Iyyu Formal.ttf302005083#302005083#0(0"0(0#0#67"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv Iyyu Formal.ttf8601394816#523"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv Iyyu Formal.ttf" /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource "build/Release-iphonesimulator/iDhivehiSites.app/Mv MAG Round.otf.ttf" "Mv MAG Round.otf.ttf"
+s302005083.848699
+e302005083.860144
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/Mv MAG Round.otf.ttf
+xMv MAG Round.otf.ttf
+lSLF07#2@25"Copy Mv MAG Round.otf.ttf302005083#302005083#0(0"0(0#0#69"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv MAG Round.otf.ttf8608686208#525"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Mv MAG Round.otf.ttf" /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/A_REETHI.ttf A_REETHI.ttf
+s302005084.316900
+e302005084.322698
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/A_REETHI.ttf
+xA_REETHI.ttf
+lSLF07#2@17"Copy A_REETHI.ttf302005084#302005084#0(0"0(0#0#61"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/A_REETHI.ttf8609433024#515"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/A_REETHI.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/Faruma.ttf Faruma.ttf
+s302005083.257604
+e302005083.290671
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/Faruma.ttf
+xFaruma.ttf
+lSLF07#2@15"Copy Faruma.ttf302005083#302005083#0(0"0(0#0#59"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Faruma.ttf8609052384#513"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Faruma.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/ILHAM.TTF ILHAM.TTF
+s302005084.317602
+e302005084.323312
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/ILHAM.TTF
+xILHAM.TTF
+lSLF07#2@14"Copy ILHAM.TTF302005084#302005084#0(0"0(0#0#58"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/ILHAM.TTF8609210144#512"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/ILHAM.TTF /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvElaafLite.ttf MvElaafLite.ttf
+s302005083.849538
+e302005083.865669
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/MvElaafLite.ttf
+xMvElaafLite.ttf
+lSLF07#2@20"Copy MvElaafLite.ttf302005083#302005083#0(0"0(0#0#64"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvElaafLite.ttf8608463264#518"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvElaafLite.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvElaafNormal.ttf MvElaafNormal.ttf
+s302005083.301584
+e302005083.317367
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/MvElaafNormal.ttf
+xMvElaafNormal.ttf
+lSLF07#2@22"Copy MvElaafNormal.ttf302005083#302005083#0(0"0(0#0#66"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvElaafNormal.ttf8600608288#520"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvElaafNormal.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvIyyuNala.ttf MvIyyuNala.ttf
+s302005083.852919
+e302005083.873077
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/MvIyyuNala.ttf
+xMvIyyuNala.ttf
+lSLF07#2@19"Copy MvIyyuNala.ttf302005083#302005083#0(0"0(0#0#63"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvIyyuNala.ttf8608342880#517"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvIyyuNala.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvIyyuNormal.ttf MvIyyuNormal.ttf
+s302005083.854660
+e302005083.880673
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/MvIyyuNormal.ttf
+xMvIyyuNormal.ttf
+lSLF07#2@21"Copy MvIyyuNormal.ttf302005083#302005083#0(0"0(0#0#65"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvIyyuNormal.ttf8608321632#519"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvIyyuNormal.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvLadyLuck.ttf MvLadyLuck.ttf
+s302005083.856375
+e302005083.869853
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/MvLadyLuck.ttf
+xMvLadyLuck.ttf
+lSLF07#2@19"Copy MvLadyLuck.ttf302005083#302005083#0(0"0(0#0#63"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvLadyLuck.ttf8608120064#517"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvLadyLuck.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRound.ttf MvMAGRound.ttf
+s302005083.858087
+e302005083.869480
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/MvMAGRound.ttf
+xMvMAGRound.ttf
+lSLF07#2@19"Copy MvMAGRound.ttf302005083#302005083#0(0"0(0#0#63"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRound.ttf8608020992#517"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRound.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRoundHollow.ttf MvMAGRoundHollow.ttf
+s302005083.860212
+e302005083.873248
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/MvMAGRoundHollow.ttf
+xMvMAGRoundHollow.ttf
+lSLF07#2@25"Copy MvMAGRoundHollow.ttf302005083#302005083#0(0"0(0#0#69"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRoundHollow.ttf8607951840#523"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRoundHollow.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/MvMAGRoundXBold.ttf MvMAGRoundXBold.ttf
+s302005083.861905
+e302005083.877298
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/MvMAGRoundXBold.ttf
+xMvMAGRoundXBold.ttf
+lSLF07#2@24"Copy MvMAGRoundXBold.ttf302005083#302005083#0(0"0(0#0#68"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRoundXBold.ttf8607735392#522"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/MvMAGRoundXBold.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/P_Faruma.ttf P_Faruma.ttf
+s302005084.318800
+e302005084.328454
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/P_Faruma.ttf
+xP_Faruma.ttf
+lSLF07#2@17"Copy P_Faruma.ttf302005084#302005084#0(0"0(0#0#61"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/P_Faruma.ttf8608601056#515"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/P_Faruma.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/RANDHOO.TTF RANDHOO.TTF
+s302005083.863674
+e302005083.881486
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/RANDHOO.TTF
+xRANDHOO.TTF
+lSLF07#2@16"Copy RANDHOO.TTF302005083#302005083#0(0"0(0#0#60"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/RANDHOO.TTF8607602464#514"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/RANDHOO.TTF /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/Tahoma.ttf Tahoma.ttf
+s302005083.309475
+e302005083.380437
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/Tahoma.ttf
+xTahoma.ttf
+lSLF07#2@15"Copy Tahoma.ttf302005083#302005083#0(0"0(0#0#59"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Tahoma.ttf8599759488#513"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Tahoma.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/Thaana1U.ttf Thaana1U.ttf
+s302005083.311415
+e302005083.344132
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/Thaana1U.ttf
+xThaana1U.ttf
+lSLF07#2@17"Copy Thaana1U.ttf302005083#302005083#0(0"0(0#0#61"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/Thaana1U.ttf8608298912#515"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/Thaana1U.ttf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/addnew.png addnew.png
+s302005083.254409
+e302005083.284910
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/addnew.png
+xaddnew.png
+lSLF07#2@15"Copy addnew.png302005083#302005083#0(0"0(0#0#59"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/addnew.png8610098432#513"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/addnew.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/avas3__0.TTF avas3__0.TTF
+s302005083.256799
+e302005083.280076
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/avas3__0.TTF
+xavas3__0.TTF
+lSLF07#2@17"Copy avas3__0.TTF302005083#302005083#0(0"0(0#0#61"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/avas3__0.TTF8609308160#515"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/avas3__0.TTF /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/back.png back.png
+s302005083.651726
+e302005083.669954
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/back.png
+xback.png
+lSLF07#2@13"Copy back.png302005083#302005083#0(0"0(0#0#57"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/back.png8599659712#511"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/back.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/cellSelected.png cellSelected.png
+s302005083.256109
+e302005083.285033
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/cellSelected.png
+xcellSelected.png
+lSLF07#2@21"Copy cellSelected.png302005083#302005083#0(0"0(0#0#65"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cellSelected.png8609419840#519"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/cellSelected.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/cellb.png cellb.png
+s302005083.255045
+e302005083.324995
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/cellb.png
+xcellb.png
+lSLF07#2@14"Copy cellb.png302005083#302005083#0(0"0(0#0#58"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/cellb.png8609701536#512"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/cellb.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/faseyha.TTF faseyha.TTF
+s302005083.259035
+e302005083.290794
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/faseyha.TTF
+xfaseyha.TTF
+lSLF07#2@16"Copy faseyha.TTF302005083#302005083#0(0"0(0#0#60"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/faseyha.TTF8609001216#514"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/faseyha.TTF /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/forward.png forward.png
+s302005083.846042
+e302005083.859904
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/forward.png
+xforward.png
+lSLF07#2@16"Copy forward.png302005083#302005083#0(0"0(0#0#60"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/forward.png8609367808#514"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/forward.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/globe.png globe.png
+s302005083.259693
+e302005083.285140
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/globe.png
+xglobe.png
+lSLF07#2@14"Copy globe.png302005083#302005083#0(0"0(0#0#58"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/globe.png8608472768#512"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/globe.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/haama.png haama.png
+s302005083.261188
+e302005083.282831
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/haama.png
+xhaama.png
+lSLF07#2@14"Copy haama.png302005083#302005083#0(0"0(0#0#58"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/haama.png8608411296#512"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/haama.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/haveeru.png haveeru.png
+s302005083.280166
+e302005083.297698
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/haveeru.png
+xhaveeru.png
+lSLF07#2@16"Copy haveeru.png302005083#302005083#0(0"0(0#0#60"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/haveeru.png8608360576#514"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/haveeru.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/home.png home.png
+s302005083.846941
+e302005083.860026
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/home.png
+xhome.png
+lSLF07#2@13"Copy home.png302005083#302005083#0(0"0(0#0#57"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/home.png8609040736#511"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/home.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/jazeera.png jazeera.png
+s302005083.282917
+e302005083.294416
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/jazeera.png
+xjazeera.png
+lSLF07#2@16"Copy jazeera.png302005083#302005083#0(0"0(0#0#60"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/jazeera.png8608337600#514"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/jazeera.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/leave_arrow.png leave_arrow.png
+s302005083.285212
+e302005083.327404
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/leave_arrow.png
+xleave_arrow.png
+lSLF07#2@20"Copy leave_arrow.png302005083#302005083#0(0"0(0#0#64"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/leave_arrow.png8607567040#518"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/leave_arrow.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/loading.png loading.png
+s302005083.286981
+e302005083.297573
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/loading.png
+xloading.png
+lSLF07#2@16"Copy loading.png302005083#302005083#0(0"0(0#0#60"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/loading.png8607175648#514"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/loading.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/maldivian57.jpg maldivian57.jpg
+s302005084.318216
+e302005084.327187
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/maldivian57.jpg
+xmaldivian57.jpg
+lSLF07#2@20"Copy maldivian57.jpg302005084#302005084#0(0"0(0#0#64"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/maldivian57.jpg8608977376#518"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/maldivian57.jpg /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/maldivian72.jpg maldivian72.jpg
+s302005083.865858
+e302005083.882584
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/maldivian72.jpg
+xmaldivian72.jpg
+lSLF07#2@20"Copy maldivian72.jpg302005083#302005083#0(0"0(0#0#64"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/maldivian72.jpg8607495808#518"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/maldivian72.jpg /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/mdp.png mdp.png
+s302005083.288679
+e302005083.301487
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/mdp.png
+xmdp.png
+lSLF07#2@12"Copy mdp.png302005083#302005083#0(0"0(0#0#56"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/mdp.png8606973472#510"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/mdp.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/miadhu.png miadhu.png
+s302005083.290859
+e302005083.311337
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/miadhu.png
+xmiadhu.png
+lSLF07#2@15"Copy miadhu.png302005083#302005083#0(0"0(0#0#59"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/miadhu.png8604586368#513"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/miadhu.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/minivan.png minivan.png
+s302005083.292564
+e302005083.309387
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/minivan.png
+xminivan.png
+lSLF07#2@16"Copy minivan.png302005083#302005083#0(0"0(0#0#60"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/minivan.png8604512864#514"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/minivan.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/muraasil.png muraasil.png
+s302005083.294513
+e302005083.305576
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/muraasil.png
+xmuraasil.png
+lSLF07#2@17"Copy muraasil.png302005083#302005083#0(0"0(0#0#61"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/muraasil.png8603947072#515"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/muraasil.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/mvfaseyha.otf mvfaseyha.otf
+s302005083.851172
+e302005083.865790
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/mvfaseyha.otf
+xmvfaseyha.otf
+lSLF07#2@18"Copy mvfaseyha.otf302005083#302005083#0(0"0(0#0#62"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/mvfaseyha.otf8608361888#516"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/mvfaseyha.otf /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/new.png new.png
+s302005083.313423
+e302005083.334206
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/new.png
+xnew.png
+lSLF07#2@12"Copy new.png302005083#302005083#0(0"0(0#0#56"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/new.png8607497056#510"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/new.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/newsicon.png newsicon.png
+s302005083.305719
+e302005083.365009
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/newsicon.png
+xnewsicon.png
+lSLF07#2@17"Copy newsicon.png302005083#302005083#0(0"0(0#0#61"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/newsicon.png8600278720#515"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/newsicon.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CCpResource build/Release-iphonesimulator/iDhivehiSites.app/normalbg.png normalbg.png
+s302005083.253612
+e302005083.376737
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iDhivehiSites.app/normalbg.png
+xnormalbg.png
+lSLF07#2@17"Copy normalbg.png302005083#302005083#0(0"0(0#0#61"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/normalbg.png8603954240#515"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/sofwathullahmohamed/Desktop/iDhivehiSites/normalbg.png /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+
+CGenerateDSYMFile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app.dSYM /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites
+s302005082.747842
+e302005082.771444
+r1
+xGenerateDSYMFile
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app.dSYM
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites
+lSLF07#2@131"GenerateDSYMFile build/Release-iphonesimulator/iDhivehiSites.app.dSYM build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites302005082#302005082#0(0"0(0#0#110"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites8608671552#435"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites -o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app.dSYM0#
+
+CLd /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites normal i386
+s302005082.681492
+e302005082.747742
+r1
+xLd
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites
+xnormal
+xi386
+lSLF07#2@115"Link /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites302005082#302005082#0(0"0(0#0#0"8609998848#988"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator -F/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator -filelist /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSites.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/iDhivehiSites0#
+
+CProcessInfoPlistFile /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Info.plist iDhivehiSites-Info.plist
+s302005081.305301
+e302005081.309402
+r1
+xProcessInfoPlistFile
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Info.plist
+xiDhivehiSites-Info.plist
+lSLF07#2@32"Process iDhivehiSites-Info.plist302005081#302005081#0(0"0(0#0#73"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/iDhivehiSites-Info.plist29555319237836920#531"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iDhivehiSites-Info.plist -genpkginfo /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app/Info.plist0#
+
+CProcessPCH /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch.gch iDhivehiSites_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302005081.309521
+e302005082.245642
+r1
+xProcessPCH
+x/var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch.gch
+xiDhivehiSites_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile iDhivehiSites_Prefix.pch302005081#302005082#0(0"0(0#0#73"/Users/sofwathullahmohamed/Desktop/iDhivehiSites/iDhivehiSites_Prefix.pch8608628064#2066"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/include -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/iDhivehiSites.build/Release-iphonesimulator/iDhivehiSites.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/sofwathullahmohamed/Desktop/iDhivehiSites/iDhivehiSites_Prefix.pch -o /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-azddqeyucdgrncaiuildketbgjne/iDhivehiSites_Prefix.pch.gch0#
+
+CTouch /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app
+s302005084.369572
+e302005084.374436
+r1
+xTouch
+x/Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app
+lSLF07#2@102"Touch /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app302005084#302005084#0(0"0(0#0#0"8608379264#306"    cd /Users/sofwathullahmohamed/Desktop/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/sofwathullahmohamed/Desktop/iDhivehiSites/build/Release-iphonesimulator/iDhivehiSites.app0#
+

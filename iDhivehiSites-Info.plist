@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.blogspot.chopey</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>maldivian57.png</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainWindow</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Mv Iyyu Formal.ttf</string>
+		<string>MvElaafNormal.ttf</string>
+		<string>Mv Eamaan XP.ttf</string>
+		<string>Faruma.ttf</string>
+		<string>Thaana1U.ttf</string>
+		<string>avas3__0.TTF</string>
+		<string>faseyha.TTF</string>
+		<string>RANDHOO.TTF</string>
+		<string>MvElaafLite.ttf</string>
+		<string>MvIyyuNala.ttf</string>
+		<string>mvfaseyha.otf</string>
+		<string>MvIyyuNormal.ttf</string>
+		<string>MvMAGRound.ttf</string>
+		<string>MvLadyLuck.ttf</string>
+		<string>Mv MAG Round.otf.ttf</string>
+		<string>MvMAGRoundHollow.ttf</string>
+		<string>MvMAGRoundXBold.ttf</string>
+		<string>RANDHOO.TTF</string>
+		<string>A_REETHI.ttf</string>
+		<string>ILHAM.TTF</string>
+		<string>a_faruma.ttf</string>
+		<string>9603ran.ttf</string>
+		<string>Aafrasmy.ttf</string>
+		<string>Aafthedu.ttf</string>
+		<string>Aahthedu.ttf</string>
+		<string>Afk2p.ttf</string>
+		<string>Akko.ttf</string>
+		<string>Akurub.ttf</string>
+		<string>Amufk2.ttf</string>
+		<string>Athiri.ttf</string>
+		<string>Athiri02.ttf</string>
+		<string>Bismi.ttf</string>
+		<string>Athiri03.ttf</string>
+		<string>Athiri01.ttf</string>
+		<string>Mv Elaaf Normal.otf.ttf</string>
+		<string>Mv Elaaf Formal.ttf</string>
+		<string>MvSehgaFB.ttf</string>
+		<string>MvMAGRoundBold.ttf</string>
+	</array>
+</dict>
+</plist>

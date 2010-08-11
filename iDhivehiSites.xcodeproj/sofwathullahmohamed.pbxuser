@@ -1,0 +1,216 @@
+// !$*UTF8*$!
+{
+	3C38765111FC21E200BE6B26 /* newSite.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1781}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3187, 527}";
+		};
+	};
+	3C3877C111FC462100BE6B26 /* maldivian72.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 59}, {1002, 693}}";
+		};
+	};
+	3C9C036F11FA2863000F1790 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = FF83CD5C11FC79E20027E9BA /* iDhivehiSites */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 3C9C037B11FA2864000F1790 /* iDhivehiSites */;
+		addToTargets = (
+			3C9C037B11FA2864000F1790 /* iDhivehiSites */,
+		);
+		codeSenseManager = FF83CD6E11FC79E50027E9BA /* Code sense */;
+		executables = (
+			FF83CD5C11FC79E20027E9BA /* iDhivehiSites */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					648,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302508807;
+			PBXWorkspaceStateSaveDate = 302508807;
+		};
+		perUserProjectItems = {
+			FF1B411F11FD40CB007BE622 /* PBXBookmark */ = FF1B411F11FD40CB007BE622 /* PBXBookmark */;
+			FF1B413411FECC91007BE622 /* PBXTextBookmark */ = FF1B413411FECC91007BE622 /* PBXTextBookmark */;
+			FF1B413511FECC91007BE622 /* PBXTextBookmark */ = FF1B413511FECC91007BE622 /* PBXTextBookmark */;
+			FF24549A1207C6D300B0F1AE /* PBXTextBookmark */ = FF24549A1207C6D300B0F1AE /* PBXTextBookmark */;
+			FF2454BA1207C85F00B0F1AE /* PBXBookmark */ = FF2454BA1207C85F00B0F1AE /* PBXBookmark */;
+			FF2454C11207CD2E00B0F1AE /* PlistBookmark */ = FF2454C11207CD2E00B0F1AE /* PlistBookmark */;
+			FF2EA5FE120894D0006EFAFC /* PlistBookmark */ = FF2EA5FE120894D0006EFAFC /* PlistBookmark */;
+			FFDE31371201100D00BCE4DC /* PBXTextBookmark */ = FFDE31371201100D00BCE4DC /* PBXTextBookmark */;
+		};
+		sourceControlManager = FF83CD6D11FC79E50027E9BA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3C9C037B11FA2864000F1790 /* iDhivehiSites */ = {
+		activeExec = 0;
+		executables = (
+			FF83CD5C11FC79E20027E9BA /* iDhivehiSites */,
+		);
+	};
+	3C9C038511FA2864000F1790 /* iDhivehiSites-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 80}, {1002, 693}}";
+		};
+	};
+	3C9C038C11FA2864000F1790 /* iDhivehiSitesAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {826, 390}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 476}";
+		};
+	};
+	3C9C038D11FA2864000F1790 /* iDhivehiSitesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {826, 585}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{479, 408}";
+		};
+	};
+	3C9C039311FA2864000F1790 /* iDhivehiSitesViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1874, 4628}}";
+			sepNavSelRange = "{3732, 0}";
+			sepNavVisRange = "{3558, 325}";
+		};
+	};
+	FF1B411F11FD40CB007BE622 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3C3877C111FC462100BE6B26 /* maldivian72.jpg */;
+	};
+	FF1B413411FECC91007BE622 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C9C038C11FA2864000F1790 /* iDhivehiSitesAppDelegate.h */;
+		name = "iDhivehiSitesAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
+	FF1B413511FECC91007BE622 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C9C038D11FA2864000F1790 /* iDhivehiSitesAppDelegate.m */;
+		name = "iDhivehiSitesAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 479;
+	};
+	FF24549A1207C6D300B0F1AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C38765111FC21E200BE6B26 /* newSite.m */;
+		name = "newSite.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 3187;
+	};
+	FF2454BA1207C85F00B0F1AE /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FF1B411711FD4060007BE622 /* maldivian57.jpg */;
+	};
+	FF2454C11207CD2E00B0F1AE /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 3C9C038511FA2864000F1790 /* iDhivehiSites-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Users/sofwathullahmohamed/Desktop/iDhivehiSites/iDhivehiSites-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	FF2EA5FE120894D0006EFAFC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 3C9C038511FA2864000F1790 /* iDhivehiSites-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIAppFonts,
+			42,
+		);
+		name = "/Users/sofwathullahmohamed/Desktop/iDhivehiSites/iDhivehiSites-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	FF83CD5C11FC79E20027E9BA /* iDhivehiSites */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iDhivehiSites;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	FF83CD6D11FC79E50027E9BA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FF83CD6E11FC79E50027E9BA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FFDE31371201100D00BCE4DC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3C9C039311FA2864000F1790 /* iDhivehiSitesViewController.m */;
+		name = "iDhivehiSitesViewController.m: 133";
+		rLen = 0;
+		rLoc = 3732;
+		rType = 0;
+		vrLen = 325;
+		vrLoc = 3558;
+	};
+}

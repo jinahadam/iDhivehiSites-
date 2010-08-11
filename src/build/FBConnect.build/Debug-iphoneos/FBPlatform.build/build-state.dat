@@ -1,0 +1,381 @@
+TFBPlatform
+v7
+r0
+t299393559.532109
+cCheck dependencies
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBRequest.o /Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBSession.o /Users/jina/Documents/facebook-iphone-sdk/src/FBSession.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBConnectGlobal.o /Users/jina/Documents/facebook-iphone-sdk/src/FBConnectGlobal.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBXMLHandler.o /Users/jina/Documents/facebook-iphone-sdk/src/FBXMLHandler.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBDialog.o /Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginDialog.o /Users/jina/Documents/facebook-iphone-sdk/src/FBLoginDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBPermissionDialog.o /Users/jina/Documents/facebook-iphone-sdk/src/FBPermissionDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginButton.o /Users/jina/Documents/facebook-iphone-sdk/src/FBLoginButton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBStreamDialog.o /Users/jina/Documents/facebook-iphone-sdk/src/FBStreamDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/libFBPlatform.a normal armv6
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C216B1E0000000000000110
+t1277258526
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004C04706200000000000C1E70
+t1275359330
+s794224
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004BFE065B00000000000CBC10
+t1274938971
+s834576
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004BF4BCBB0000000000002407
+t1274330299
+s9223
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/dlfcn.h
+c000000004BFDF0D30000000000000B1C
+t1274933459
+s2844
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libsqlite3.0.dylib
+c000000004BFDFABB00000000000B4D20
+t1274935995
+s740640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libxml2.2.dylib
+c000000004BFE06DF00000000001E1430
+t1274939103
+s1971248
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnect/FBConnectGlobal.h
+c000000004C2809730000000000001E85
+t1277692275
+s7813
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnect/FBDialog.h
+c000000004C2809730000000000000EE9
+t1277692275
+s3817
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnect/FBLoginButton.h
+c000000004C28097300000000000005A1
+t1277692275
+s1441
+i"FBConnect/FBSession.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnect/FBLoginDialog.h
+c000000004C28097300000000000002F1
+t1277692275
+s753
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnect/FBPermissionDialog.h
+c000000004C280973000000000000038C
+t1277692275
+s908
+i"FBConnect/FBLoginDialog.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnect/FBRequest.h
+c000000004C2809730000000000001159
+t1277692275
+s4441
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnect/FBSession.h
+c000000004C2809730000000000001579
+t1277692275
+s5497
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnect/FBStreamDialog.h
+c000000004C280973000000000000083F
+t1277692275
+s2111
+i"FBConnect/FBDialog.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBConnectGlobal.m
+c000000004C28097300000000000005C5
+t1277692275
+s1477
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m
+c000000004C28097300000000000054A6
+t1277692275
+s21670
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBLoginButton.m
+c000000004C2809730000000000001476
+t1277692275
+s5238
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i<dlfcn.h>
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBLoginDialog.m
+c000000004C280973000000000000100E
+t1277692275
+s4110
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBPermissionDialog.m
+c000000004C2809730000000000000C88
+t1277692275
+s3208
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m
+c000000004C2809730000000000002EFC
+t1277692275
+s12028
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBSession.m
+c000000004C280973000000000000215A
+t1277692275
+s8538
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBStreamDialog.m
+c000000004C28097300000000000009B1
+t1277692275
+s2481
+i"FBConnect/FBStreamDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBXMLHandler.h
+c000000004C28097300000000000003C9
+t1277692275
+s969
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/FBXMLHandler.m
+c000000004C2809730000000000001148
+t1277692275
+s4424
+i"FBXMLHandler.h"
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/libFBPlatform.a
+t1277700759
+s415096
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBConnectGlobal.o
+t1277700758
+s9556
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBDialog.o
+t1277700758
+s102164
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginButton.o
+t1277700759
+s54976
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginDialog.o
+t1277700758
+s48412
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBPermissionDialog.o
+t1277700759
+s44380
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBPlatform.LinkFileList
+c000000004C282A9500000000000004CB
+t1277700757
+s1227
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBRequest.o
+t1277700758
+s50804
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBSession.o
+t1277700758
+s35444
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBStreamDialog.o
+t1277700759
+s43884
+
+N/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBXMLHandler.o
+t1277700758
+s20964
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies299393557#299393557#0(0"0(0#1#0"8626557440#0"0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBConnectGlobal.o /Users/jina/Documents/facebook-iphone-sdk/src/FBConnectGlobal.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393558.110847
+e299393558.360519
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBConnectGlobal.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBConnectGlobal.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBConnectGlobal.m299393558#299393558#0(0"0(0#0#63"/Users/jina/Documents/facebook-iphone-sdk/src/FBConnectGlobal.m8626088640#1901"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBConnectGlobal.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBConnectGlobal.o0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBDialog.o /Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393558.360941
+e299393558.944665
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBDialog.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m: In function '-[FBDialog initWithSession:]':
+o/Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m:331: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)
+lSLF07#2@64"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m299393558#299393558#0(347"/Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m: In function '-[FBDialog initWithSession:]':/Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m:331: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)1(22@173"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:106)299393558#102#245#0(6@56"/Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m299385075#331#0#331#0#33"'*' is deprecated (declared at *)0(0#0#56"/Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m8622695200#1887"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBDialog.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBDialog.o0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginButton.o /Users/jina/Documents/facebook-iphone-sdk/src/FBLoginButton.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393558.944784
+e299393559.279188
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginButton.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBLoginButton.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBLoginButton.m299393558#299393559#0(0"0(0#0#61"/Users/jina/Documents/facebook-iphone-sdk/src/FBLoginButton.m8626180320#1897"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBLoginButton.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginButton.o0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginDialog.o /Users/jina/Documents/facebook-iphone-sdk/src/FBLoginDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393558.435700
+e299393558.743551
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginDialog.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBLoginDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBLoginDialog.m299393558#299393558#0(0"0(0#0#61"/Users/jina/Documents/facebook-iphone-sdk/src/FBLoginDialog.m8622490240#1897"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBLoginDialog.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBLoginDialog.o0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBPermissionDialog.o /Users/jina/Documents/facebook-iphone-sdk/src/FBPermissionDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393558.743659
+e299393559.072688
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBPermissionDialog.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBPermissionDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBPermissionDialog.m299393558#299393559#0(0"0(0#0#66"/Users/jina/Documents/facebook-iphone-sdk/src/FBPermissionDialog.m8599226816#1907"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBPermissionDialog.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBPermissionDialog.o0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBRequest.o /Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393557.609984
+e299393558.144129
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBRequest.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m: In function '-[FBRequest parseXMLResponse:error:]':
+o/Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m:180: warning: class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol
+lSLF07#2@65"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m299393557#299393558#0(258"/Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m: In function '-[FBRequest parseXMLResponse:error:]':/Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m:180: warning: class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol1(22@74"Class 'FBXMLHandler' does not implement the 'NSXMLParserDelegate' protocol299393558#111#147#0(6@57"/Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m299385075#180#0#180#0#45"class '*' does not implement the '*' protocol0(0#0#57"/Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m8622721376#1889"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBRequest.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBRequest.o0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBSession.o /Users/jina/Documents/facebook-iphone-sdk/src/FBSession.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393557.611092
+e299393558.110745
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBSession.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBSession.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBSession.m299393557#299393558#0(0"0(0#0#57"/Users/jina/Documents/facebook-iphone-sdk/src/FBSession.m8621380896#1889"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBSession.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBSession.o0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBStreamDialog.o /Users/jina/Documents/facebook-iphone-sdk/src/FBStreamDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393559.072793
+e299393559.333381
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBStreamDialog.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBStreamDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBStreamDialog.m299393559#299393559#0(0"0(0#0#62"/Users/jina/Documents/facebook-iphone-sdk/src/FBStreamDialog.m8621142848#1899"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBStreamDialog.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBStreamDialog.o0#
+
+CCompileC build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBXMLHandler.o /Users/jina/Documents/facebook-iphone-sdk/src/FBXMLHandler.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s299393558.144225
+e299393558.435596
+r1
+xCompileC
+xbuild/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBXMLHandler.o
+x/Users/jina/Documents/facebook-iphone-sdk/src/FBXMLHandler.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/jina/Documents/facebook-iphone-sdk/src/FBXMLHandler.m299393558#299393558#0(0"0(0#0#60"/Users/jina/Documents/facebook-iphone-sdk/src/FBXMLHandler.m8625442336#1895"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-generated-files.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-own-target-headers.hmap -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-all-target-headers.hmap -iquote /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/FBPlatform-project-headers.hmap -F/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -I/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -I/Users/jina/Documents/facebook-iphone-sdk/src/../.. -I/Users/jina/Documents/facebook-iphone-sdk/src/../../external -I. -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources/armv6 -I/Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/DerivedSources -c /Users/jina/Documents/facebook-iphone-sdk/src/FBXMLHandler.m -o /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBXMLHandler.o0#
+
+CLibtool /Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/libFBPlatform.a normal armv6
+s299393559.333478
+e299393559.532043
+r1
+xLibtool
+x/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/libFBPlatform.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libxml2.2.dylib is a dynamic library, not added to the static library
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libxml2.2.dylib is a dynamic library, not added to the static library
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libsqlite3.0.dylib is a dynamic library, not added to the static library
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libsqlite3.0.dylib is a dynamic library, not added to the static library
+lSLF07#2@57"Libtool build/Debug-iphoneos/libFBPlatform.a normal armv6299393559#299393559#0(886"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libxml2.2.dylib is a dynamic library, not added to the static library/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libxml2.2.dylib is a dynamic library, not added to the static library/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libsqlite3.0.dylib is a dynamic library, not added to the static library/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libsqlite3.0.dylib is a dynamic library, not added to the static library0(0#0#0"8627184832#1200"    cd /Users/jina/Documents/facebook-iphone-sdk/src    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos -L/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib -L/Users/jina/Documents/facebook-iphone-sdk/src/../.. -L/Users/jina/Documents/facebook-iphone-sdk/src/../../external -filelist /Users/jina/Documents/facebook-iphone-sdk/src/build/FBConnect.build/Debug-iphoneos/FBPlatform.build/Objects-normal/armv6/FBPlatform.LinkFileList -framework CoreLocation -framework Security -framework CoreGraphics -framework UIKit -framework Foundation /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libxml2.2.dylib /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libsqlite3.0.dylib -o /Users/jina/Documents/facebook-iphone-sdk/src/build/Debug-iphoneos/libFBPlatform.a0#
+
