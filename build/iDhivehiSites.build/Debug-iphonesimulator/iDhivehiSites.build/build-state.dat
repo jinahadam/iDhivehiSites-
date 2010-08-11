@@ -1,7 +1,7 @@
 TiDhivehiSites
 v7
 r0
-t303185611.081595
+t303236837.278170
 cCheck dependencies
 cProcessInfoPlistFile /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/Info.plist iDhivehiSites-Info.plist
 cProcessPCH /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch.gch iDhivehiSites_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -12,6 +12,13 @@ cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Ob
 cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o /Users/jina/iDhivehiSites/Classes/browserView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/TwitterAgent.o /Users/jina/iDhivehiSites/Classes/../TwitterAgent.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/BusyAgent.o /Users/jina/iDhivehiSites/Classes/BusyAgent.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/MKBitlyHelper.o /Users/jina/iDhivehiSites/Classes/MKBitlyHelper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSObject+SBJSON.o /Users/jina/iDhivehiSites/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSString+SBJSON.o /Users/jina/iDhivehiSites/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJSON.o /Users/jina/iDhivehiSites/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonBase.o /Users/jina/iDhivehiSites/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonParser.o /Users/jina/iDhivehiSites/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonWriter.o /Users/jina/iDhivehiSites/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites normal i386
 cGenerateDSYMFile /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app.dSYM /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites
 cCopyStringsFile /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
@@ -1331,6 +1338,105 @@ t1263409229
 s2066
 i"BusyAgent.h"
 
+N/Users/jina/iDhivehiSites/Classes/JSON/JSON.h
+c000000004B93BE5E00000000000008F9
+t1267973726
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/NSObject+SBJSON.h
+c000000004B93BE5E0000000000000A01
+t1267973726
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/jina/iDhivehiSites/Classes/JSON/NSObject+SBJSON.m
+c000000004B93BE5E000000000000089E
+t1267973726
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/NSString+SBJSON.h
+c000000004B93BE5E0000000000000916
+t1267973726
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/jina/iDhivehiSites/Classes/JSON/NSString+SBJSON.m
+c000000004B93BE5E000000000000087D
+t1267973726
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/SBJSON.h
+c000000004B93BE5E0000000000000AED
+t1267973726
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/SBJSON.m
+c000000004B93BE5E0000000000001ABC
+t1267973726
+s6844
+i"SBJSON.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/SBJsonBase.h
+c000000004B93BE5E0000000000000B82
+t1267973726
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/jina/iDhivehiSites/Classes/JSON/SBJsonBase.m
+c000000004B93BE5E0000000000000AC1
+t1267973726
+s2753
+i"SBJsonBase.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/SBJsonParser.h
+c000000004B93BE5E0000000000000C0B
+t1267973726
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/SBJsonParser.m
+c000000004B93C6A300000000000036D0
+t1267975843
+s14032
+i"SBJsonParser.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/SBJsonWriter.h
+c000000004B93BE5E0000000000001140
+t1267973726
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/jina/iDhivehiSites/Classes/JSON/SBJsonWriter.m
+c000000004B93BE5E0000000000001F26
+t1267973726
+s7974
+i"SBJsonWriter.h"
+
+N/Users/jina/iDhivehiSites/Classes/MKBitlyHelper.h
+c000000004B34872500000000000001DF
+t1261733669
+s479
+i<Foundation/Foundation.h>
+
+N/Users/jina/iDhivehiSites/Classes/MKBitlyHelper.m
+c000000004C62CF5E0000000000000EFB
+t1281544030
+s3835
+i"MKBitlyHelper.h"
+i"JSON.h"
+
 N/Users/jina/iDhivehiSites/Classes/browserView.h
 c000000004C618CD600000000000002C2
 t1281461462
@@ -1338,11 +1444,12 @@ s706
 i<UIKit/UIKit.h>
 
 N/Users/jina/iDhivehiSites/Classes/browserView.m
-c000000004C6192740000000000001086
-t1281462900
-s4230
+c000000004C62CFC200000000000018B1
+t1281544130
+s6321
 i"browserView.h"
 i"TwitterAgent.h"
+i"MKBitlyHelper.h"
 
 N/Users/jina/iDhivehiSites/Classes/browserView.xib
 c000000004C617F3E000000000000541A
@@ -1518,11 +1625,11 @@ t1280045994
 s1701
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app
-t1281492811
+t1281544034
 s2618
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app.dSYM
-t1281492810
+t1281544034
 s102
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/9603ran.ttf
@@ -1590,7 +1697,7 @@ t1281455690
 s24468
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/Info.plist
-t1281492802
+t1281540396
 s1338
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/Mv Eamaan XP.ttf
@@ -1654,7 +1761,7 @@ t1281455690
 s26356
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/PkgInfo
-t1281492802
+t1281540396
 s8
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/RANDHOO.TTF
@@ -1746,8 +1853,8 @@ t1280066186
 s2015
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites
-t1281492810
-s252040
+t1281544034
+s292324
 
 N/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/jazeera.png
 t1280066186
@@ -1817,18 +1924,46 @@ N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhiv
 t1281492809
 s48612
 
+N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/MKBitlyHelper.o
+t1281544032
+s18460
+
+N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSObject+SBJSON.o
+t1281544032
+s8276
+
+N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSString+SBJSON.o
+t1281544032
+s8196
+
+N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJSON.o
+t1281544032
+s20060
+
+N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonBase.o
+t1281544032
+s13192
+
+N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonParser.o
+t1281544033
+s35852
+
+N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonWriter.o
+t1281544033
+s25532
+
 N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/TwitterAgent.o
 t1281492809
 s95060
 
 N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o
-t1281492809
-s62268
+t1281543664
+s60984
 
 N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSites.LinkFileList
-c000000004C6207420000000000000391
-t1281492802
-s913
+c000000004C62CF5E0000000000000717
+t1281544030
+s1815
 
 N/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesAppDelegate.o
 t1281492809
@@ -2549,13 +2684,13 @@ t1281492808
 s15272976
 
 NiDhivehiSites-Info.plist
-c000000004C62073F000000000000089E
-t1281492799
-s2206
+c000000004C628D74000000000000089F
+t1281527156
+s2207
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies303185602#303185602#0(0"0(0#1#0"8667482880#0"0#
+lSLF07#2@18"Check dependencies303236837#303236837#0(0"0(0#1#0"8703013024#0"0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/BusyAgent.o /Users/jina/iDhivehiSites/Classes/BusyAgent.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s303185609.545957
@@ -2569,6 +2704,97 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@53"Compile /Users/jina/iDhivehiSites/Classes/BusyAgent.m303185609#303185609#0(0"0(0#0#45"/Users/jina/iDhivehiSites/Classes/BusyAgent.m8667883296#2018"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/BusyAgent.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/BusyAgent.o0#
+
+CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/MKBitlyHelper.o /Users/jina/iDhivehiSites/Classes/MKBitlyHelper.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303236830.831879
+e303236832.627083
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/MKBitlyHelper.o
+x/Users/jina/iDhivehiSites/Classes/MKBitlyHelper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/jina/iDhivehiSites/Classes/MKBitlyHelper.m303236830#303236832#0(0"0(0#0#49"/Users/jina/iDhivehiSites/Classes/MKBitlyHelper.m8685956416#2026"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/MKBitlyHelper.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/MKBitlyHelper.o0#
+
+CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSObject+SBJSON.o /Users/jina/iDhivehiSites/Classes/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303236830.832973
+e303236832.392852
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/jina/iDhivehiSites/Classes/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/jina/iDhivehiSites/Classes/JSON/NSObject+SBJSON.m303236830#303236832#0(0"0(0#0#56"/Users/jina/iDhivehiSites/Classes/JSON/NSObject+SBJSON.m8685471296#2035"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/JSON/NSObject+SBJSON.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSString+SBJSON.o /Users/jina/iDhivehiSites/Classes/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303236832.393160
+e303236832.494947
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/jina/iDhivehiSites/Classes/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/jina/iDhivehiSites/Classes/JSON/NSString+SBJSON.m303236832#303236832#0(0"0(0#0#56"/Users/jina/iDhivehiSites/Classes/JSON/NSString+SBJSON.m8703030304#2035"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/JSON/NSString+SBJSON.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJSON.o /Users/jina/iDhivehiSites/Classes/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303236832.495056
+e303236832.583124
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJSON.o
+x/Users/jina/iDhivehiSites/Classes/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jina/iDhivehiSites/Classes/JSON/SBJSON.m303236832#303236832#0(0"0(0#0#47"/Users/jina/iDhivehiSites/Classes/JSON/SBJSON.m8702616352#2017"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/JSON/SBJSON.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonBase.o /Users/jina/iDhivehiSites/Classes/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303236832.583234
+e303236832.676298
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonBase.o
+x/Users/jina/iDhivehiSites/Classes/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/jina/iDhivehiSites/Classes/JSON/SBJsonBase.m303236832#303236832#0(0"0(0#0#51"/Users/jina/iDhivehiSites/Classes/JSON/SBJsonBase.m8701789184#2025"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/JSON/SBJsonBase.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonParser.o /Users/jina/iDhivehiSites/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303236832.627192
+e303236833.601865
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonParser.o
+x/Users/jina/iDhivehiSites/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/jina/iDhivehiSites/Classes/JSON/SBJsonParser.m303236832#303236833#0(0"0(0#0#53"/Users/jina/iDhivehiSites/Classes/JSON/SBJsonParser.m8701039616#2029"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/JSON/SBJsonParser.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonWriter.o /Users/jina/iDhivehiSites/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s303236832.676409
+e303236833.945875
+r1
+xCompileC
+xbuild/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/jina/iDhivehiSites/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/jina/iDhivehiSites/Classes/JSON/SBJsonWriter.m303236832#303236833#0(0"0(0#0#53"/Users/jina/iDhivehiSites/Classes/JSON/SBJsonWriter.m8699895808#2029"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/JSON/SBJsonWriter.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/SBJsonWriter.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/TwitterAgent.o /Users/jina/iDhivehiSites/Classes/../TwitterAgent.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s303185609.432509
@@ -2614,8 +2840,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m301758977#301758978#0(0"0(0#0#85"/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m8599676224#2350"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap" -iquote "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap" "-F/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphonesimulator" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphonesimulator/include" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources" -include /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-hjhbwzndunwldhfhykogytgdtaqg/iDhivehiSites_Prefix.pch -c "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m" -o "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o"0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o /Users/jina/iDhivehiSites/Classes/browserView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303185609.393261
-e303185609.545850
+s303236464.642652
+e303236464.783843
 r1
 xCompileC
 xbuild/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o
@@ -2625,8 +2851,10 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/Users/jina/iDhivehiSites/Classes/browserView.m: In function '-[browserView pickOne:]':
-o/Users/jina/iDhivehiSites/Classes/browserView.m:93: warning: format not a string literal and no format arguments
-lSLF07#2@55"Compile /Users/jina/iDhivehiSites/Classes/browserView.m303185609#303185609#0(201"/Users/jina/iDhivehiSites/Classes/browserView.m: In function '-[browserView pickOne:]':/Users/jina/iDhivehiSites/Classes/browserView.m:93: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments303185609#88#113#0(6@47"/Users/jina/iDhivehiSites/Classes/browserView.m303155700#93#0#93#0#51"format not a string literal and no format arguments0(0#0#47"/Users/jina/iDhivehiSites/Classes/browserView.m8654875616#2022"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/browserView.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o0#
+o/Users/jina/iDhivehiSites/Classes/browserView.m:134: warning: format not a string literal and no format arguments
+o/Users/jina/iDhivehiSites/Classes/browserView.m: In function '-[browserView urlencode:]':
+o/Users/jina/iDhivehiSites/Classes/browserView.m:158: warning: local declaration of 'url' hides instance variable
+lSLF07#2@55"Compile /Users/jina/iDhivehiSites/Classes/browserView.m303236464#303236464#0(405"/Users/jina/iDhivehiSites/Classes/browserView.m: In function '-[browserView pickOne:]':/Users/jina/iDhivehiSites/Classes/browserView.m:134: warning: format not a string literal and no format arguments/Users/jina/iDhivehiSites/Classes/browserView.m: In function '-[browserView urlencode:]':/Users/jina/iDhivehiSites/Classes/browserView.m:158: warning: local declaration of 'url' hides instance variable2(22@51"Format not a string literal and no format arguments303236464#88#114#0(6@47"/Users/jina/iDhivehiSites/Classes/browserView.m303236463#134#0#134#0#51"format not a string literal and no format arguments0(22@50"Local declaration of 'url' hides instance variable303236464#292#113#0(6@47"/Users/jina/iDhivehiSites/Classes/browserView.m303236463#158#0#158#0#0"0(0#0#47"/Users/jina/iDhivehiSites/Classes/browserView.m8691328736#2022"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -I/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources/i386 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fwfgaurfosfcdkfwcaxkvkeulyiy/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/browserView.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/browserView.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSitesAppDelegate.o "/Users/jina/Documents/iDhivehiSites v 2.0/Classes/iDhivehiSitesAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s303151941.519746
@@ -3564,13 +3792,13 @@ CGenerateDSYMFile /Users/jina/Documents/iDhivehiSites/build/Debug-iphonesimulato
 r0
 
 CGenerateDSYMFile /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app.dSYM /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites
-s303185610.700141
-e303185610.991886
+s303236834.277211
+e303236834.475223
 r1
 xGenerateDSYMFile
 x/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app.dSYM
 x/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/iDhivehiSites.app.dSYM build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites303185610#303185610#0(0"0(0#0#85"/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites8665777344#362"    cd /Users/jina/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites -o /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app.dSYM0#
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/iDhivehiSites.app.dSYM build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites303236834#303236834#0(0"0(0#0#85"/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites8700805408#362"    cd /Users/jina/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites -o /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app.dSYM0#
 
 CLd "/Users/jina/Documents/iDhivehiSites v 2.0/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites" normal i386
 s303152176.692367
@@ -3596,8 +3824,8 @@ CLd /Users/jina/Documents/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSite
 r0
 
 CLd /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites normal i386
-s303185609.694740
-e303185610.699930
+s303236833.946232
+e303236834.277062
 r1
 xLd
 x/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites
@@ -3606,7 +3834,7 @@ xi386
 old: warning: in /Users/jina/iDhivehiSites/libml.a, file was built for unsupported file format which is not the architecture being linked (i386)
 old: warning: in /Users/jina/iDhivehiSites/libstdc++.dylib, missing required architecture i386 in file
 old: warning: in /Users/jina/iDhivehiSites/libFBPlatform.a, file was built for unsupported file format which is not the architecture being linked (i386)
-lSLF07#2@90"Link /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites303185609#303185610#0(398"ld: warning: in /Users/jina/iDhivehiSites/libml.a, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Users/jina/iDhivehiSites/libstdc++.dylib, missing required architecture i386 in fileld: warning: in /Users/jina/iDhivehiSites/libFBPlatform.a, file was built for unsupported file format which is not the architecture being linked (i386)3(22@130"In /Users/jina/iDhivehiSites/libml.a, file was built for unsupported file format which is not the architecture being linked (i386)303185610#0#144#0(6@0"303185610#0#0#0#0#0"0(22@88"In /Users/jina/iDhivehiSites/libstdc++.dylib, missing required architecture i386 in file303185610#144#102#0(6@0"303185610#0#0#0#0#0"0(22@138"In /Users/jina/iDhivehiSites/libFBPlatform.a, file was built for unsupported file format which is not the architecture being linked (i386)303185610#246#152#0(6@0"303185610#0#0#0#0#0"0(0#0#0"8667679072#1102"    cd /Users/jina/iDhivehiSites    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -L/Users/jina/iDhivehiSites/mobclix.lib -L/Users/jina/iDhivehiSites -L/Users/jina/iDhivehiSites/Twitter+OAuth/SAOAuthTwitterEngine -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -filelist /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSites.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -lMobclix -framework MediaPlayer -framework SystemConfiguration -lOAuth -lml -lstdc++ -lFBPlatform -lxml2 -o /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites0#
+lSLF07#2@90"Link /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites303236833#303236834#0(398"ld: warning: in /Users/jina/iDhivehiSites/libml.a, file was built for unsupported file format which is not the architecture being linked (i386)ld: warning: in /Users/jina/iDhivehiSites/libstdc++.dylib, missing required architecture i386 in fileld: warning: in /Users/jina/iDhivehiSites/libFBPlatform.a, file was built for unsupported file format which is not the architecture being linked (i386)3(22@130"In /Users/jina/iDhivehiSites/libml.a, file was built for unsupported file format which is not the architecture being linked (i386)303236834#0#144#0(6@0"303236834#0#0#0#0#0"0(22@88"In /Users/jina/iDhivehiSites/libstdc++.dylib, missing required architecture i386 in file303236834#144#102#0(6@0"303236834#0#0#0#0#0"0(22@138"In /Users/jina/iDhivehiSites/libFBPlatform.a, file was built for unsupported file format which is not the architecture being linked (i386)303236834#246#152#0(6@0"303236834#0#0#0#0#0"0(0#0#0"8702207360#1102"    cd /Users/jina/iDhivehiSites    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -L/Users/jina/iDhivehiSites/mobclix.lib -L/Users/jina/iDhivehiSites -L/Users/jina/iDhivehiSites/Twitter+OAuth/SAOAuthTwitterEngine -F/Users/jina/iDhivehiSites/build/Debug-iphonesimulator -filelist /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphonesimulator/iDhivehiSites.build/Objects-normal/i386/iDhivehiSites.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -lMobclix -framework MediaPlayer -framework SystemConfiguration -lOAuth -lml -lstdc++ -lFBPlatform -lxml2 -o /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/iDhivehiSites0#
 
 CProcessInfoPlistFile "/Users/jina/Documents/iDhivehiSites v 2.0/build/Debug-iphonesimulator/iDhivehiSites.app/Info.plist" iDhivehiSites-Info.plist
 s303148485.129905
@@ -3630,13 +3858,13 @@ CProcessInfoPlistFile /Users/jina/Documents/iDhivehiSites/build/Debug-iphonesimu
 r0
 
 CProcessInfoPlistFile /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/Info.plist iDhivehiSites-Info.plist
-s303185602.734790
-e303185602.774142
+s303233196.620096
+e303233196.636507
 r1
 xProcessInfoPlistFile
 x/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/Info.plist
 xiDhivehiSites-Info.plist
-lSLF07#2@32"Process iDhivehiSites-Info.plist303185602#303185602#0(0"0(0#0#50"/Users/jina/iDhivehiSites/iDhivehiSites-Info.plist8628502912#458"    cd /Users/jina/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iDhivehiSites-Info.plist -genpkginfo /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/Info.plist0#
+lSLF07#2@32"Process iDhivehiSites-Info.plist303233196#303233196#0(0"0(0#0#50"/Users/jina/iDhivehiSites/iDhivehiSites-Info.plist8699134464#458"    cd /Users/jina/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iDhivehiSites-Info.plist -genpkginfo /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app/Info.plist0#
 
 CProcessPCH /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-hjhbwzndunwldhfhykogytgdtaqg/iDhivehiSites_Prefix.pch.gch iDhivehiSites_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s301758976.642405
@@ -3700,10 +3928,10 @@ CTouch /Users/jina/Documents/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiS
 r0
 
 CTouch /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app
-s303185611.066596
-e303185611.081518
+s303236834.479282
+e303236834.510841
 r1
 xTouch
 x/Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app
-lSLF07#2@77"Touch /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app303185611#303185611#0(0"0(0#0#0"8663219968#258"    cd /Users/jina/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app0#
+lSLF07#2@77"Touch /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app303236834#303236834#0(0"0(0#0#0"8702081568#258"    cd /Users/jina/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jina/iDhivehiSites/build/Debug-iphonesimulator/iDhivehiSites.app0#
 

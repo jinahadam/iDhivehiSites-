@@ -399,8 +399,8 @@ didReceiveAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge
 	if(link){
 		if(yesOrno){
 			link = [link stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding ];
-			NSURL* url = [NSURL URLWithString:[NSString stringWithFormat:@"http://tinyurl.com/api-create.php?url=@",link]];
-			link = [NSString stringWithContentsOfURL:url];
+			//NSURL* url = [NSURL URLWithString:[NSString stringWithFormat:@"http://tinyurl.com/api-create.php?url=@",link]];
+			//link = [NSString stringWithContentsOfURL:url];
 		}
 	}
 	self.message = text;

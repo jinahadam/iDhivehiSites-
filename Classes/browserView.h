@@ -9,17 +9,18 @@
 #import <UIKit/UIKit.h>
 
 
-@interface browserView : UIViewController {
+@interface browserView : UIViewController  <UIWebViewDelegate> {
 	
 		
 	
-IBOutlet UIWebView *webView;
+    IBOutlet UIWebView *webView;
 	NSString *url;
 	IBOutlet UIActivityIndicatorView *active;
 	IBOutlet UIButton *home;
 	IBOutlet UIButton *backward;
 	IBOutlet UIButton *forward;
 	NSString *siteName;
+	NSURL *currentUrl;
 	
 
 }
@@ -28,7 +29,7 @@ IBOutlet UIWebView *webView;
 @property (retain) IBOutlet UIButton *home;
 @property (retain) IBOutlet UIButton *backward;
 @property (retain) IBOutlet UIButton *forward;
-
+@property (retain) NSURL *currentURL;
 @property (retain) IBOutlet UIWebView *webView;
 @property (retain) NSString *url;
 @property (retain) NSString *siteName;

@@ -8,21 +8,61 @@
 
 #import "browserView.h"
 #import "TwitterAgent.h"
+#import "MKBitlyHelper.h"
+
+@interface NSString (Utilities)
+- (NSString *) URLEncodedString_ch;
+@end
+
+@implementation NSString (Utilities)
+
+- (NSString *) URLEncodedString_ch {
+    NSMutableString * output = [NSMutableString string];
+    const unsigned char * source = (const unsigned char *)[self UTF8String];
+    int sourceLen = strlen((const char *)source);
+    for (int i = 0; i < sourceLen; ++i) {
+        const unsigned char thisChar = source[i];
+        if (thisChar == ' '){
+            [output appendString:@"+"];
+        } else if (thisChar == '.' || thisChar == '-' || thisChar == '_' || thisChar == '~' || 
+                   (thisChar >= 'a' && thisChar <= 'z') ||
+                   (thisChar >= 'A' && thisChar <= 'Z') ||
+                   (thisChar >= '0' && thisChar <= '9')) {
+            [output appendFormat:@"%c", thisChar];
+        } else {
+            [output appendFormat:@"%%%02X", thisChar];
+        }
+    }
+    return output;
+}
+
+
+@end
+
 
 @implementation browserView
 
 
+
+
 @synthesize webView;
-@synthesize url,home,backward,forward,siteName;
+@synthesize url,home,backward,forward,siteName,currentURL;
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
+ - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+ if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+ // Custom initialization
+ }
+ return self;
+ }
+ */
+- (void)webViewDidFinishLoad:(UIWebView *) webview {
+    
+	NSURLRequest *currentRequest = [webview request];
+	currentURL = [currentRequest URL];
+	NSLog(@"Current URL is %@", currentURL.absoluteString);
+	
 }
-*/
 
 
 -(IBAction) goHome {
@@ -67,7 +107,7 @@
 	
 	//Load the request in the UIWebView.
 	[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
-	 webView.multipleTouchEnabled = YES;
+	webView.multipleTouchEnabled = YES;
 	[NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkLoad) userInfo:nil repeats:YES];
 	[NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkNotLoad) userInfo:nil repeats:YES];
 	
@@ -79,25 +119,29 @@
 	
 	if([selected isEqualToString:@"<"]) {
 		[webView goBack];
-	
+		
 	} else if ([selected isEqualToString:@">"]) {
 		
 		[webView goForward];
 		
 	} else {
 		
-		NSString *sURL = webView.request.URL.absoluteString;
+
+		
+		
+		NSString *e = currentURL.absoluteString;
+		MKBitlyHelper *bitlyHelper = [[MKBitlyHelper alloc] initWithLoginName:@"jinahadam" andAPIKey:@"R_e90688e7f10d7eee0e8eb7c007e094dc"];
+		NSString *shortURL = [bitlyHelper shortenURL:e];
+		
+		
 		
 		[[TwitterAgent defaultAgent] twit ];
+		[[TwitterAgent defaultAgent] twit:@"Breaking!" withLink:[NSString stringWithFormat:@"%@ #iDhivehiSites", shortURL] makeTiny:NO];
 		
-		NSLog(sURL);
-		
-		[[TwitterAgent defaultAgent] twit:@"News!" withLink:[NSString stringWithFormat:@"%@ #iDhivehiSites", sURL] makeTiny:NO];
-		
-		
+		//NSLog(shortURL);
 		
 	}
-
+	
 }
 
 
@@ -105,28 +149,27 @@
 
 - (void)checkLoad {
 	if (webView.loading) {
-		active.hidden = NO;
-		[active startAnimating];
+		UIApplication* app = [UIApplication sharedApplication];
+		app.networkActivityIndicatorVisible = YES; 
 	}
 }
 - (void)checkNotLoad {
 	if (!(webView.loading)) {
-		active.hidden = YES;
-		[active stopAnimating];
-	}
+		UIApplication* app = [UIApplication sharedApplication];
+		app.networkActivityIndicatorVisible = NO; 	}
 }
 -(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
 	if((self.interfaceOrientation == UIDeviceOrientationLandscapeLeft) || (self.interfaceOrientation == UIDeviceOrientationLandscapeRight)){
 		
 		
 		webView.scalesPageToFit = YES;
-
+		
 		
 	} else	if((self.interfaceOrientation == UIDeviceOrientationPortrait) || (self.interfaceOrientation == UIDeviceOrientationPortraitUpsideDown)){
 		
 		
 		webView.scalesPageToFit = YES;
-
+		
 		
 	}
 }
