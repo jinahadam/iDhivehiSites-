@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -289,6 +289,7 @@
 								<string>3C2B91031211BA430029764F</string>
 								<string>3C9C037411FA2864000F1790</string>
 								<string>3C9C037611FA2864000F1790</string>
+								<string>3C82165911FAA53B00C3F693</string>
 								<string>3C9C037711FA2864000F1790</string>
 								<string>3C9C037D11FA2864000F1790</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -297,13 +298,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>33</integer>
+									<integer>53</integer>
 									<integer>28</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 224}, {276, 607}}</string>
+							<string>{{0, 315}, {276, 607}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -319,8 +320,6 @@
 							<string>MainColumn</string>
 							<real>276</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>0 112 1280 666 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,8 +330,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -350,7 +347,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3C2B958E12130C1E0029764F</string>
+										<string>3C2B95AA121381F50029764F</string>
 										<key>history</key>
 										<array>
 											<string>3C3876C711FC2C2D00BE6B26</string>
@@ -365,7 +362,7 @@
 											<string>3C2B954E121307A20029764F</string>
 											<string>3C2B9560121308E00029764F</string>
 											<string>3C2B958012130AE30029764F</string>
-											<string>3C2B958D12130C050029764F</string>
+											<string>3C2B95A2121381BE0029764F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -379,18 +376,16 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {982, 409}}</string>
-								<key>RubberWindowFrame</key>
-								<string>0 112 1280 666 0 0 1280 778 </string>
+								<string>{{0, 0}, {982, 402}}</string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>409pt</string>
+							<string>402pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>211pt</string>
+							<string>218pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -404,7 +399,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1410, 184}}</string>
+										<string>{{10, 27}, {982, 191}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -458,9 +453,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {982, 184}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 112 1280 666 0 0 1280 778 </string>
+										<string>{{10, 27}, {982, 191}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -488,11 +481,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3C2B94571212C2EE0029764F</string>
+				<string>3C2B959D121381B30029764F</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>3C2B94581212C2EE0029764F</string>
+				<string>3C2B959E121381B30029764F</string>
 				<string>3C5003A811FA35F90080949F</string>
-				<string>3C2B94591212C2EE0029764F</string>
+				<string>3C2B959F121381B30029764F</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -545,6 +538,8 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1280, 246}}</string>
+						<key>RubberWindowFrame</key>
+						<string>0 112 1280 666 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -619,7 +614,11 @@
 							</array>
 							<key>Frame</key>
 							<string>{{625, 0}, {655, 182}}</string>
+							<key>RubberWindowFrame</key>
+							<string>0 112 1280 666 0 0 1280 778 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>0 112 1280 666 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -642,13 +641,13 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3C2B945A1212C2EE0029764F</string>
+				<string>3C2B95A5121381D60029764F</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>3C2B945B1212C2EE0029764F</string>
-				<string>3C2B945C1212C2EE0029764F</string>
-				<string>3C2B945D1212C2EE0029764F</string>
-				<string>3C2B945E1212C2EE0029764F</string>
+				<string>3C2B95A6121381D60029764F</string>
+				<string>3C2B95A7121381D60029764F</string>
+				<string>3C2B95A8121381D60029764F</string>
+				<string>3C2B95A9121381D60029764F</string>
 				<string>3C5003A811FA35F90080949F</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
@@ -666,7 +665,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>303238174.707874</real>
+	<real>303268341.662597</real>
 	<key>ToolbarConfigUserDefaultsMinorVersion</key>
 	<string>2</string>
 	<key>ToolbarDisplayMode</key>
@@ -683,9 +682,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3C2B958C12130B770029764F</string>
-		<string>3C2B94981212C6430029764F</string>
-		<string>3C2B94881212C5260029764F</string>
 		<string>/Users/jina/iDhivehiSites/iDhivehiSites.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
