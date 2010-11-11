@@ -26,6 +26,7 @@
 #import "iDhivehiSitesViewController.h"
 #import "newSite.h"
 #import "browserView.h"
+#import "haveeru.h"
 
 @implementation iDhivehiSitesViewController
 
@@ -314,28 +315,52 @@
 	NSDictionary *row = [data objectAtIndex:indexPath.row];
 	NSArray *celldata = [row objectForKey:@"site"];
     
-	self.navigationItem.backBarButtonItem =
-	[[UIBarButtonItem alloc] initWithTitle:@"Home"
-									 style: UIBarButtonItemStyleBordered
-									target:nil
-									action:nil];
 	
 	
-	NSString * url = [celldata objectAtIndex:1];
-	//UIImage * img = [UIImage imageNamed: @"loading.png"];
-	
-	browserView *browser = [[browserView alloc] initWithNibName:@"browserView" bundle:nil];
-	
-	browser.url = url;
-	browser.siteName =  [celldata objectAtIndex:2];
-
-	
-	[self.navigationController pushViewController:browser animated:YES];
-	
-	[browser release];
 	
 	
-    
+	if([[celldata objectAtIndex:2] isEqualToString:@"Haveeru"]) {
+		
+		self.navigationItem.backBarButtonItem =
+		[[UIBarButtonItem alloc] initWithTitle:@"Home"
+										 style: UIBarButtonItemStyleBordered
+										target:nil
+										action:nil];
+		
+		haveeru *browser = [[haveeru alloc] init];
+		
+		[self.navigationController pushViewController:browser animated:YES];
+		
+		[browser release];
+		
+		
+	} else {
+		
+		
+		
+		self.navigationItem.backBarButtonItem =
+		[[UIBarButtonItem alloc] initWithTitle:@"Home"
+										 style: UIBarButtonItemStyleBordered
+										target:nil
+										action:nil];
+		
+				
+		NSString * url = [celldata objectAtIndex:1];
+		//UIImage * img = [UIImage imageNamed: @"loading.png"];
+		
+		browserView *browser = [[browserView alloc] initWithNibName:@"browserView" bundle:nil];
+		
+		browser.url = url;
+		browser.siteName =  [celldata objectAtIndex:2];
+		
+		
+		
+		[self.navigationController pushViewController:browser animated:YES];
+		
+		[browser release];
+		
+		
+	}
 	
 }
 

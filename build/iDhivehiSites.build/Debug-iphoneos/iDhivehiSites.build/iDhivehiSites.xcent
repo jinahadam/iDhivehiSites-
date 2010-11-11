@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>29B9D4VZCR.com.blogspot.chopey</string>
+	<string>QD42MFV47J.com.datacalibre.testing</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>29B9D4VZCR.com.blogspot.chopey</string>
+		<string>QD42MFV47J.com.datacalibre.testing</string>
 	</array>
 </dict>
 </plist>

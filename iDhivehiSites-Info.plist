@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.blogspot.chopey</string>
+	<string>com.datacalibre.testing</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -21,20 +21,21 @@
 	<key>CFBundleDisplayName</key>
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<false/>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>RANDHOO.TTF</string>
+		<string>Faruma.ttf</string>
 		<string>Mv Iyyu Formal.ttf</string>
 		<string>MvElaafNormal.ttf</string>
 		<string>Mv Eamaan XP.ttf</string>
-		<string>Faruma.ttf</string>
+		<string>faseyha.TTF</string>
 		<string>Thaana1U.ttf</string>
 		<string>avas3__0.TTF</string>
-		<string>faseyha.TTF</string>
 		<string>RANDHOO.TTF</string>
 		<string>MvElaafLite.ttf</string>
 		<string>MvIyyuNala.ttf</string>
@@ -45,7 +46,6 @@
 		<string>Mv MAG Round.otf.ttf</string>
 		<string>MvMAGRoundHollow.ttf</string>
 		<string>MvMAGRoundXBold.ttf</string>
-		<string>RANDHOO.TTF</string>
 		<string>A_REETHI.ttf</string>
 		<string>ILHAM.TTF</string>
 		<string>a_faruma.ttf</string>

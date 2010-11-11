@@ -7,8 +7,6 @@
 //
 
 #import "browserView.h"
-#import "TwitterAgent.h"
-#import "MKBitlyHelper.h"
 
 @interface NSString (Utilities)
 - (NSString *) URLEncodedString_ch;
@@ -60,7 +58,7 @@
     
 	NSURLRequest *currentRequest = [webview request];
 	currentURL = [currentRequest URL];
-	NSLog(@"Current URL is %@", currentURL.absoluteString);
+	//NSLog(@"Current URL is %@", currentURL.absoluteString);
 	
 }
 
@@ -78,7 +76,7 @@
 	
 	
 	UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:
-											[NSArray arrayWithObjects:@"<",@">",@"Share",
+											[NSArray arrayWithObjects:@"<",@">",
 											 nil]];
 	
 	[segmentedControl addTarget:self
@@ -128,7 +126,7 @@
 		
 
 		
-		
+		/*
 		NSString *e = currentURL.absoluteString;
 		MKBitlyHelper *bitlyHelper = [[MKBitlyHelper alloc] initWithLoginName:@"jinahadam" andAPIKey:@"R_e90688e7f10d7eee0e8eb7c007e094dc"];
 		NSString *shortURL = [bitlyHelper shortenURL:e];
@@ -139,6 +137,7 @@
 		[[TwitterAgent defaultAgent] twit:@"Breaking!" withLink:[NSString stringWithFormat:@"%@ #iDhivehiSites", shortURL] makeTiny:NO];
 		
 		//NSLog(shortURL);
+		 */
 		
 	}
 	
