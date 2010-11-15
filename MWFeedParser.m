@@ -615,8 +615,8 @@
 	MWLog(@"MWFeedParser: Parsing started");
 	
 	// Inform delegate
-	if ([delegate respondsToSelector:@selector(feedParserDidStart:)])
-		[delegate feedParserDidStart:self];
+//	if ([delegate respondsToSelector:@selector(feedParserDidStart:)])
+//		[delegate feedParserDidStart:self];
 	
 }
 

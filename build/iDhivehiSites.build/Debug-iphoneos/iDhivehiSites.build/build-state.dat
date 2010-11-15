@@ -1,7 +1,7 @@
 TiDhivehiSites
 v7
 r0
-t311140996.866118
+t311497364.149987
 cCheck dependencies
 cCpResource build/Debug-iphoneos/iDhivehiSites.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/Info.plist iDhivehiSites-Info.plist
@@ -12,9 +12,6 @@ cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-n
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSitesViewController.o /Users/jina/Code/iDhivehiSites-/Classes/iDhivehiSitesViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/newSite.o /Users/jina/Code/iDhivehiSites-/Classes/newSite.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o /Users/jina/Code/iDhivehiSites-/Classes/browserView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/TwitterAgent.o /Users/jina/Code/iDhivehiSites-/Classes/../TwitterAgent.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/BusyAgent.o /Users/jina/Code/iDhivehiSites-/Classes/BusyAgent.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/MKBitlyHelper.o /Users/jina/Code/iDhivehiSites-/Classes/MKBitlyHelper.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/jina/Code/iDhivehiSites-/Classes/JSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/NSString+SBJSON.o /Users/jina/Code/iDhivehiSites-/Classes/JSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/SBJSON.o /Users/jina/Code/iDhivehiSites-/Classes/JSON/SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
@@ -37,14 +34,12 @@ cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-n
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/ASINetworkQueue.o /Users/jina/Code/iDhivehiSites-/ASINetworkQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/ASIDownloadCache.o /Users/jina/Code/iDhivehiSites-/ASIDownloadCache.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/Reachability.o /Users/jina/Code/iDhivehiSites-/Classes/JSON/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites normal armv6
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/main.o /Users/jina/Code/iDhivehiSites-/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSitesAppDelegate.o /Users/jina/Code/iDhivehiSites-/Classes/iDhivehiSitesAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSitesViewController.o /Users/jina/Code/iDhivehiSites-/Classes/iDhivehiSitesViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/newSite.o /Users/jina/Code/iDhivehiSites-/Classes/newSite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o /Users/jina/Code/iDhivehiSites-/Classes/browserView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/TwitterAgent.o /Users/jina/Code/iDhivehiSites-/Classes/../TwitterAgent.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/BusyAgent.o /Users/jina/Code/iDhivehiSites-/Classes/BusyAgent.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/MKBitlyHelper.o /Users/jina/Code/iDhivehiSites-/Classes/MKBitlyHelper.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/jina/Code/iDhivehiSites-/Classes/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/NSString+SBJSON.o /Users/jina/Code/iDhivehiSites-/Classes/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/SBJSON.o /Users/jina/Code/iDhivehiSites-/Classes/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -68,7 +63,6 @@ cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-n
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/ASIDownloadCache.o /Users/jina/Code/iDhivehiSites-/ASIDownloadCache.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/Reachability.o /Users/jina/Code/iDhivehiSites-/Classes/JSON/Reachability.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites normal armv7
-cLd /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites normal armv6
 cCreateUniversalBinary /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites normal "armv6 armv7"
 cGenerateDSYMFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app.dSYM /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites
 cCopyStringsFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
@@ -126,9 +120,6 @@ cCpResource "build/Debug-iphoneos/iDhivehiSites.app/Mv Elaaf Formal.ttf" "Mv Ela
 cCpResource build/Debug-iphoneos/iDhivehiSites.app/MvSehgaFB.ttf MvSehgaFB.ttf
 cCpResource build/Debug-iphoneos/iDhivehiSites.app/MvMAGRoundBold.ttf MvMAGRoundBold.ttf
 cCopyPNGFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/maldivian57.png maldivian57.png
-cCopyPNGFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/fb_message_bg.png Classes/../fb_message_bg.png
-cCopyPNGFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/Twitter_logo.png Classes/../Twitter_logo.png
-cCopyPNGFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/twitter-logo-twit.png Classes/../twitter-logo-twit.png
 cCompileXIB /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.xib
 cCompileXIB /Users/jina/Code/iDhivehiSites-/haveeruCell.xib
 cCompileXIB /Users/jina/Code/iDhivehiSites-/Classes/../haveeruArticle.xib
@@ -630,9 +621,9 @@ t1289197057
 s828
 
 N/Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m
-c000000004CDB6A1200000000000016C0
-t1289447954
-s5824
+c000000004CDB6C9D00000000000016E4
+t1289448605
+s5860
 i"NSString+HTML.h"
 i"MWFeedParser.h"
 i"haveeru.h"
@@ -798,12 +789,10 @@ s788
 i<UIKit/UIKit.h>
 
 N/Users/jina/Code/iDhivehiSites-/Classes/browserView.m
-c000000004CDB6AFB0000000000001649
-t1289448187
-s5705
+c000000004CDB6C4B0000000000001616
+t1289448523
+s5654
 i"browserView.h"
-i"TwitterAgent.h"
-i"MKBitlyHelper.h"
 
 N/Users/jina/Code/iDhivehiSites-/Classes/browserView.xib
 c000000004CD7960000000000000054C9
@@ -921,9 +910,9 @@ i"MWFeedInfo.h"
 i"MWFeedItem.h"
 
 N/Users/jina/Code/iDhivehiSites-/MWFeedParser.m
-c000000004CDA274F0000000000006B3F
-t1289365327
-s27455
+c000000004CE0DAB30000000000006B43
+t1289804467
+s27459
 i"MWFeedParser.h"
 i"MWFeedParser_Private.h"
 i"NSString+HTML.h"
@@ -1090,11 +1079,11 @@ t1289197056
 s1701
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app
-t1289448196
+t1289804476
 s2856
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app.dSYM
-t1289448194
+t1289804474
 s102
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/9603ran.ttf
@@ -1166,8 +1155,8 @@ t1289197056
 s24468
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/Info.plist
-t1289382952
-s1538
+t1289804192
+s1536
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/Mv Eamaan XP.ttf
 t1289197056
@@ -1230,7 +1219,7 @@ t1289197056
 s26356
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/PkgInfo
-t1289382952
+t1289804192
 s8
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/RANDHOO.TTF
@@ -1342,8 +1331,8 @@ t1289361635
 s2143
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites
-t1289448193
-s1269556
+t1289804473
+s1223616
 
 N/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/jazeera.png
 t1289361634
@@ -1458,8 +1447,8 @@ t1289382965
 s21640
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/MWFeedParser.o
-t1289382965
-s80084
+t1289804473
+s79852
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/NSDate+InternetDateTime.o
 t1289447045
@@ -1506,25 +1495,25 @@ t1289382964
 s92520
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o
-t1289448190
+t1289804194
 s62620
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/haveeru.o
-t1289447959
-s60872
+t1289804194
+s60212
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/haveeruArticle.o
 t1289447046
 s48332
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites
-t1289448192
-s640176
+t1289804473
+s605900
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites.LinkFileList
-c000000004CDA6AE20000000000000F54
-t1289382626
-s3924
+c000000004CE0D9A00000000000000DD3
+t1289804192
+s3539
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSitesAppDelegate.o
 t1289382963
@@ -1591,8 +1580,8 @@ t1289382969
 s21220
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/MWFeedParser.o
-t1289382969
-s78652
+t1289804473
+s78428
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/NSDate+InternetDateTime.o
 t1289447048
@@ -1639,25 +1628,25 @@ t1289382967
 s91704
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o
-t1289448190
+t1289804196
 s62160
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/haveeru.o
-t1289447962
-s60456
+t1289804196
+s59800
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/haveeruArticle.o
 t1289447049
 s48220
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites
-t1289448192
-s622388
+t1289804473
+s592204
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites.LinkFileList
-c000000004CDA6AE20000000000000F54
-t1289382626
-s3924
+c000000004CE0D9A00000000000000DD3
+t1289804192
+s3539
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSitesAppDelegate.o
 t1289382966
@@ -1676,7 +1665,7 @@ t1289382967
 s52104
 
 N/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent
-t1289382974
+t1289804198
 s420
 
 N/Users/jina/Code/iDhivehiSites-/cell.xib
@@ -6370,13 +6359,13 @@ t1281459814
 s10327600
 
 NiDhivehiSites-Info.plist
-c000000004CDA68EE00000000000008A3
-t1289382126
-s2211
+c000000004CDB6CD900000000000008A1
+t1289448665
+s2209
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311140990#311140990#0(0"0(0#1#0"8761531168#0"0#
+lSLF07#2@18"Check dependencies311497364#311497364#0(0"0(0#1#0"8621156960#0"0#
 
 CCodeSign "/Users/jina/Documents/iDhivehiSites v 2.0/build/Debug-iphoneos/iDhivehiSites.app"
 s303155809.334387
@@ -6395,12 +6384,12 @@ x/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iph
 lSLF07#2@47"CodeSign build/Debug-iphoneos/iDhivehiSites.app301803282#301803286#0(0"0(0#0#102"/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app8615791552#794"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Sofwathullah Mohamed (U3A8D4YWBS)" "--resource-rules=/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/ResourceRules.plist" --entitlements "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent" "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app"0#
 
 CCodeSign /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app
-s311140994.338748
-e311140996.865994
+s311497274.573170
+e311497276.103522
 r1
 xCodeSign
 x/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app
-lSLF07#2@47"CodeSign build/Debug-iphoneos/iDhivehiSites.app311140994#311140996#0(0"0(0#0#70"/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app8759962144#648"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jinah Adam (7JTF8M6HV8)" --resource-rules=/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/ResourceRules.plist --entitlements /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app0#
+lSLF07#2@47"CodeSign build/Debug-iphoneos/iDhivehiSites.app311497274#311497276#0(0"0(0#0#70"/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app8620699904#648"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jinah Adam (7JTF8M6HV8)" --resource-rules=/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/ResourceRules.plist --entitlements /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app0#
 
 CCodeSign /Users/jina/Desktop/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app
 s301747314.112316
@@ -7082,8 +7071,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@52"Compile /Users/jina/Code/iDhivehiSites-/MWFeedItem.m311075452#311075452#0(0"0(0#0#44"/Users/jina/Code/iDhivehiSites-/MWFeedItem.m8655663968#2006"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-ccooguogduepxzaketjvhyopksli/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/MWFeedItem.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/MWFeedItem.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/MWFeedParser.o /Users/jina/Code/iDhivehiSites-/MWFeedParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311075764.866165
-e311075765.388339
+s311497270.655016
+e311497273.658679
 r1
 xCompileC
 xbuild/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/MWFeedParser.o
@@ -7092,7 +7081,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/jina/Code/iDhivehiSites-/MWFeedParser.m311075764#311075765#0(0"0(0#0#46"/Users/jina/Code/iDhivehiSites-/MWFeedParser.m8744338080#1925"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-etelzeoadmwnhifuhwltwxrsqaue/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/MWFeedParser.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/MWFeedParser.o0#
+lSLF07#2@54"Compile /Users/jina/Code/iDhivehiSites-/MWFeedParser.m311497270#311497273#0(0"0(0#0#46"/Users/jina/Code/iDhivehiSites-/MWFeedParser.m7310583902100808704#1925"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-etelzeoadmwnhifuhwltwxrsqaue/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/MWFeedParser.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/MWFeedParser.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/MWFeedParser.o /Users/jina/Code/iDhivehiSites-/MWFeedParser.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s311075451.398164
@@ -7583,8 +7572,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m301803271#301803271#0(0"0(0#0#85"/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m8614418208#2173"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap" -iquote "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap" "-F/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/include" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources" -include /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fnijipxqjwgidfghlmzrtdcgbzey/iDhivehiSites_Prefix.pch -c "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m" -o "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o"0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o /Users/jina/Code/iDhivehiSites-/Classes/browserView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311140990.202208
-e311140990.940142
+s311496992.777663
+e311496994.060255
 r1
 xCompileC
 xbuild/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o
@@ -7593,7 +7582,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/jina/Code/iDhivehiSites-/Classes/browserView.m311140990#311140990#0(0"0(0#0#53"/Users/jina/Code/iDhivehiSites-/Classes/browserView.m8734967616#1931"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-etelzeoadmwnhifuhwltwxrsqaue/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/Classes/browserView.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o0#
+lSLF07#2@61"Compile /Users/jina/Code/iDhivehiSites-/Classes/browserView.m311496992#311496994#0(0"0(0#0#53"/Users/jina/Code/iDhivehiSites-/Classes/browserView.m8616617984#1931"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-etelzeoadmwnhifuhwltwxrsqaue/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/Classes/browserView.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o /Users/jina/Code/iDhivehiSites-/Classes/browserView.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s311075448.728080
@@ -7648,8 +7637,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@55"Compile /Users/jina/iDhivehiSites/Classes/browserView.m303238205#303238206#0(0"0(0#0#47"/Users/jina/iDhivehiSites/Classes/browserView.m8698315264#1831"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphoneos -I/Users/jina/iDhivehiSites/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-bbnbmsplzrksqrafcnhwggiamjdw/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/browserView.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/browserView.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/haveeru.o /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311140759.705012
-e311140759.944045
+s311496992.791617
+e311496994.057828
 r1
 xCompileC
 xbuild/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/haveeru.o
@@ -7658,7 +7647,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m311140759#311140759#0(0"0(0#0#52"/Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m8757550720#1926"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-etelzeoadmwnhifuhwltwxrsqaue/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/haveeru.o0#
+lSLF07#2@60"Compile /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m311496992#311496994#0(0"0(0#0#52"/Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m8618681248#1926"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv6 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-etelzeoadmwnhifuhwltwxrsqaue/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/haveeru.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/haveeru.o /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m normal armv6 objective-c com.apple.compilers.llvmgcc42
 s311075452.171243
@@ -8732,8 +8721,8 @@ xcom.apple.compilers.llvmgcc42
 lSLF07#2@52"Compile /Users/jina/Code/iDhivehiSites-/MWFeedItem.m311075469#311075469#0(0"0(0#0#44"/Users/jina/Code/iDhivehiSites-/MWFeedItem.m8723176608#2006"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-fprbnmtirwieukfcdkqzrvejofjq/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/MWFeedItem.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/MWFeedItem.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/MWFeedParser.o /Users/jina/Code/iDhivehiSites-/MWFeedParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311075768.909180
-e311075769.455182
+s311497270.764856
+e311497273.655660
 r1
 xCompileC
 xbuild/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/MWFeedParser.o
@@ -8742,7 +8731,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/jina/Code/iDhivehiSites-/MWFeedParser.m311075768#311075769#0(0"0(0#0#46"/Users/jina/Code/iDhivehiSites-/MWFeedParser.m8741527360#1925"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-grofkrngtndekiglqkrjpxbwpfvk/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/MWFeedParser.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/MWFeedParser.o0#
+lSLF07#2@54"Compile /Users/jina/Code/iDhivehiSites-/MWFeedParser.m311497270#311497273#0(0"0(0#0#46"/Users/jina/Code/iDhivehiSites-/MWFeedParser.m8618343200#1925"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-grofkrngtndekiglqkrjpxbwpfvk/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/MWFeedParser.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/MWFeedParser.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/MWFeedParser.o /Users/jina/Code/iDhivehiSites-/MWFeedParser.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s311075469.130853
@@ -9233,8 +9222,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m301803271#301803271#0(0"0(0#0#85"/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m8612718432#2173"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap" -iquote "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap" "-F/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/include" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7" "-I/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources" -include /var/folders/XJ/XJdRuWL0HW4YFKZEHUHPxE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iDhivehiSites_Prefix-dmildctygrvxkmgbyapdgdalphqp/iDhivehiSites_Prefix.pch -c "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/Classes/browserView.m" -o "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o"0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o /Users/jina/Code/iDhivehiSites-/Classes/browserView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311140990.282665
-e311140990.881552
+s311496994.058946
+e311496996.358823
 r1
 xCompileC
 xbuild/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o
@@ -9243,7 +9232,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/jina/Code/iDhivehiSites-/Classes/browserView.m311140990#311140990#0(0"0(0#0#53"/Users/jina/Code/iDhivehiSites-/Classes/browserView.m8740629728#1931"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-grofkrngtndekiglqkrjpxbwpfvk/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/Classes/browserView.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o0#
+lSLF07#2@61"Compile /Users/jina/Code/iDhivehiSites-/Classes/browserView.m311496994#311496996#0(0"0(0#0#53"/Users/jina/Code/iDhivehiSites-/Classes/browserView.m8616720288#1931"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-grofkrngtndekiglqkrjpxbwpfvk/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/Classes/browserView.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o /Users/jina/Code/iDhivehiSites-/Classes/browserView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s311075466.497220
@@ -9298,8 +9287,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@55"Compile /Users/jina/iDhivehiSites/Classes/browserView.m303238205#303238206#0(0"0(0#0#47"/Users/jina/iDhivehiSites/Classes/browserView.m8706000448#1831"    cd /Users/jina/iDhivehiSites    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/iDhivehiSites/build/Debug-iphoneos -I/Users/jina/iDhivehiSites/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2 -Isrc -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7 -I/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-cdmlhvoskumfcfdxxpfbfweydzqk/iDhivehiSites_Prefix.pch -c /Users/jina/iDhivehiSites/Classes/browserView.m -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/browserView.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/haveeru.o /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311140759.804154
-e311140762.247574
+s311496996.360129
+e311496996.500150
 r1
 xCompileC
 xbuild/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/haveeru.o
@@ -9308,7 +9297,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m311140759#311140762#0(0"0(0#0#52"/Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m8757137184#1926"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-grofkrngtndekiglqkrjpxbwpfvk/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/haveeru.o0#
+lSLF07#2@60"Compile /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m311496996#311496996#0(0"0(0#0#52"/Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m8618786272#1926"    cd /Users/jina/Code/iDhivehiSites-    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-generated-files.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-own-target-headers.hmap -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-all-target-headers.hmap -iquote /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites-project-headers.hmap -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -I/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2 -Isrc -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources/armv7 -I/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/DerivedSources -include /var/folders/fL/fLVJxao3H8KGL-bTH4cAx++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/iDhivehiSites_Prefix-grofkrngtndekiglqkrjpxbwpfvk/iDhivehiSites_Prefix.pch -c /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/haveeru.o0#
 
 CCompileC build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/haveeru.o /Users/jina/Code/iDhivehiSites-/Classes/../haveeru.m normal armv7 objective-c com.apple.compilers.llvmgcc42
 s311075469.783254
@@ -11273,14 +11262,14 @@ xarmv6 armv7
 lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites normal "armv6 armv7"301803271#301803271#0(0"0(0#0#75"/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/armv6 armv78614183872#674"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites" "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites" -output "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites"0#
 
 CCreateUniversalBinary /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites normal "armv6 armv7"
-s311140992.908437
-e311140993.566456
+s311497273.921198
+e311497273.980348
 r1
 xCreateUniversalBinary
 x/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites
 xnormal
 xarmv6 armv7
-lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites normal "armv6 armv7"311140992#311140994#0(0"0(0#0#43"/Users/jina/Code/iDhivehiSites-/armv6 armv78759032512#538"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites -output /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites0#
+lSLF07#2@95"CreateUniversalBinary build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites normal "armv6 armv7"311497273#311497273#0(0"0(0#0#43"/Users/jina/Code/iDhivehiSites-/armv6 armv78604278144#538"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites -output /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites0#
 
 CCreateUniversalBinary /Users/jina/Desktop/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites normal "armv6 armv7"
 s301747313.920216
@@ -11331,13 +11320,13 @@ x/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iph
 lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/iDhivehiSites.app.dSYM build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites301803271#301803272#0(0"0(0#0#116"/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites8612789184#461"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites" -o "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app.dSYM"0#
 
 CGenerateDSYMFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app.dSYM /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites
-s311140993.566554
-e311140994.239139
+s311497273.980442
+e311497274.564514
 r1
 xGenerateDSYMFile
 x/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app.dSYM
 x/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites
-lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/iDhivehiSites.app.dSYM build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites311140993#311140994#0(0"0(0#0#84"/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites8744376160#359"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites -o /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app.dSYM0#
+lSLF07#2@113"GenerateDSYMFile build/Debug-iphoneos/iDhivehiSites.app.dSYM build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites311497273#311497274#0(0"0(0#0#84"/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites8622235136#359"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites -o /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app.dSYM0#
 
 CGenerateDSYMFile /Users/jina/Desktop/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app.dSYM /Users/jina/Desktop/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/iDhivehiSites
 s301747313.924207
@@ -11407,26 +11396,26 @@ xarmv7
 lSLF07#2@164"Link /Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites301803271#301803271#0(0"0(0#0#0"8615859616#1030"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos" "-F/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos" -filelist "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites"0#
 
 CLd /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites normal armv6
-s311140990.940235
-e311140992.908204
+s311497273.658757
+e311497273.921081
 r1
 xLd
 x/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites
 xnormal
 xarmv6
 old: warning: directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found
-lSLF07#2@132"Link /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites311140990#311140994#0(115"ld: warning: directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found1(22@101"Directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found311140992#0#115#0(6@0"311140992#0#0#0#0#0"0(0#0#0"8756358048#1201"    cd /Users/jina/Code/iDhivehiSites-    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -L/Users/jina/Code/iDhivehiSites-/mobclix.lib -L/Users/jina/Code/iDhivehiSites- -L/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -filelist /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites.LinkFileList -dead_strip -lz -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -lMobclix -framework MediaPlayer -framework SystemConfiguration -lOAuth -lml -lstdc++ -lxml2 -framework MobileCoreServices -framework CFNetwork -lz.1.2.3 -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites0#
+lSLF07#2@132"Link /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites311497273#311497273#0(115"ld: warning: directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found1(22@101"Directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found311497273#0#115#0(6@0"311497273#0#0#0#0#0"0(0#0#0"8621391616#1201"    cd /Users/jina/Code/iDhivehiSites-    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -L/Users/jina/Code/iDhivehiSites-/mobclix.lib -L/Users/jina/Code/iDhivehiSites- -L/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -filelist /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites.LinkFileList -dead_strip -lz -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -lMobclix -framework MediaPlayer -framework SystemConfiguration -lOAuth -lml -lstdc++ -lxml2 -framework MobileCoreServices -framework CFNetwork -lz.1.2.3 -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites0#
 
 CLd /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites normal armv7
-s311140990.884878
-e311140992.903384
+s311497273.657511
+e311497273.914289
 r1
 xLd
 x/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites
 xnormal
 xarmv7
 old: warning: directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found
-lSLF07#2@132"Link /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites311140990#311140994#0(115"ld: warning: directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found1(22@101"Directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found311140992#0#115#0(6@0"311140992#0#0#0#0#0"0(0#0#0"8756594016#1201"    cd /Users/jina/Code/iDhivehiSites-    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -L/Users/jina/Code/iDhivehiSites-/mobclix.lib -L/Users/jina/Code/iDhivehiSites- -L/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -filelist /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites.LinkFileList -dead_strip -lz -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -lMobclix -framework MediaPlayer -framework SystemConfiguration -lOAuth -lml -lstdc++ -lxml2 -framework MobileCoreServices -framework CFNetwork -lz.1.2.3 -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites0#
+lSLF07#2@132"Link /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites311497273#311497273#0(115"ld: warning: directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found1(22@101"Directory '/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine' following -L not found311497273#0#115#0(6@0"311497273#0#0#0#0#0"0(0#0#0"8622771200#1201"    cd /Users/jina/Code/iDhivehiSites-    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -L/Users/jina/Code/iDhivehiSites-/mobclix.lib -L/Users/jina/Code/iDhivehiSites- -L/Users/jina/Code/iDhivehiSites-/Twitter+OAuth/SAOAuthTwitterEngine -F/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos -F/Users/jina/Code/iDhivehiSites- -filelist /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites.LinkFileList -dead_strip -lz -miphoneos-version-min=4.0 -framework UIKit -framework Foundation -framework CoreGraphics -lMobclix -framework MediaPlayer -framework SystemConfiguration -lOAuth -lml -lstdc++ -lxml2 -framework MobileCoreServices -framework CFNetwork -lz.1.2.3 -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv7/iDhivehiSites0#
 
 CLd /Users/jina/Desktop/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/Objects-normal/armv6/iDhivehiSites normal armv6
 s301747313.364663
@@ -11507,13 +11496,13 @@ xiDhivehiSites-Info.plist
 lSLF07#2@32"Process iDhivehiSites-Info.plist301803268#301803268#0(0"0(0#0#88"/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/iDhivehiSites-Info.plist8595081504#694"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iDhivehiSites-Info.plist -genpkginfo "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/ResourceRules.plist" -o "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/Info.plist"0#
 
 CProcessInfoPlistFile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/Info.plist iDhivehiSites-Info.plist
-s311075752.792888
-e311075752.887616
+s311496992.632965
+e311496992.776952
 r1
 xProcessInfoPlistFile
 x/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/Info.plist
 xiDhivehiSites-Info.plist
-lSLF07#2@32"Process iDhivehiSites-Info.plist311075752#311075752#0(0"0(0#0#56"/Users/jina/Code/iDhivehiSites-/iDhivehiSites-Info.plist8743634976#558"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iDhivehiSites-Info.plist -genpkginfo /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/ResourceRules.plist -o /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/Info.plist0#
+lSLF07#2@32"Process iDhivehiSites-Info.plist311496992#311496992#0(0"0(0#0#56"/Users/jina/Code/iDhivehiSites-/iDhivehiSites-Info.plist19140749390970996#558"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iDhivehiSites-Info.plist -genpkginfo /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/ResourceRules.plist -o /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app/Info.plist0#
 
 CProcessInfoPlistFile /Users/jina/Desktop/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app/Info.plist iDhivehiSites-Info.plist
 r0
@@ -11843,13 +11832,13 @@ x/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSite
 lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent303219969#303219970#0(0"0(0#0#106"/Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent8676073344#424"    cd /Users/jina/iDhivehiSites    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/jina/iDhivehiSites/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent0#
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent
-s311075774.269346
-e311075774.288157
+s311496998.978961
+e311496998.997394
 r1
 xProcessProductPackaging
 x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
 x/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent
-lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent311075774#311075774#0(0"0(0#0#112"/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent8739151072#436"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent0#
+lSLF07#2@193"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent311496998#311496998#0(0"0(0#0#112"/Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent8618075008#436"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/jina/Code/iDhivehiSites-/build/iDhivehiSites.build/Debug-iphoneos/iDhivehiSites.build/iDhivehiSites.xcent0#
 
 CTouch "/Users/jina/Documents/iDhivehiSites v 2.0/build/Debug-iphoneos/iDhivehiSites.app"
 s303155809.330182
@@ -11868,12 +11857,12 @@ x/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iph
 lSLF07#2@108"Touch /Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app301803282#301803282#0(0"0(0#0#0"8612994176#324"    cd "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/sofwathullahmohamed/Library/Mail Downloads/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app"0#
 
 CTouch /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app
-s311140994.242551
-e311140994.338537
+s311497274.568713
+e311497274.572977
 r1
 xTouch
 x/Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app
-lSLF07#2@76"Touch /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app311140994#311140994#0(0"0(0#0#0"8760067072#256"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app0#
+lSLF07#2@76"Touch /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app311497274#311497274#0(0"0(0#0#0"8621177824#256"    cd /Users/jina/Code/iDhivehiSites-    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/jina/Code/iDhivehiSites-/build/Debug-iphoneos/iDhivehiSites.app0#
 
 CTouch /Users/jina/Desktop/iDhivehiSites/build/Debug-iphoneos/iDhivehiSites.app
 s301747314.106715
