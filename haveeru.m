@@ -24,7 +24,7 @@
 	[super viewDidLoad];
 	
 	// Setup
-	self.title = @"Headlines";
+	self.title = @"Haveeru";
 	formatter = [[NSDateFormatter alloc] init];
 	[formatter setDateStyle:NSDateFormatterShortStyle];
 	[formatter setTimeStyle:NSDateFormatterShortStyle];

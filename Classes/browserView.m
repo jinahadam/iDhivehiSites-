@@ -71,8 +71,8 @@
     [super viewDidLoad];
 	
 	//NSLog(url);
-	
-	self.title = siteName;
+		
+	self.title = @" ";
 	
 	
 	UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:

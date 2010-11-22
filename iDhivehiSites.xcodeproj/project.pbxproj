@@ -104,6 +104,7 @@
 		FF24547D1207C1A700B0F1AE /* MvSehgaFB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF24547C1207C1A700B0F1AE /* MvSehgaFB.ttf */; };
 		FF24548B1207C5A100B0F1AE /* MvMAGRoundBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF24548A1207C5A100B0F1AE /* MvMAGRoundBold.ttf */; };
 		FF2454B11207C83500B0F1AE /* maldivian57.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2454B01207C83500B0F1AE /* maldivian57.png */; };
+		FFAC76F7129195B200C02958 /* mnbc_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FFAC76F6129195B200C02958 /* mnbc_logo.png */; };
 		FFDE313012003D6700BCE4DC /* a_faruma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFDE312F12003D6700BCE4DC /* a_faruma.ttf */; };
 /* End PBXBuildFile section */
 
@@ -249,6 +250,7 @@
 		FF24547C1207C1A700B0F1AE /* MvSehgaFB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MvSehgaFB.ttf; sourceTree = "<group>"; };
 		FF24548A1207C5A100B0F1AE /* MvMAGRoundBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MvMAGRoundBold.ttf; sourceTree = "<group>"; };
 		FF2454B01207C83500B0F1AE /* maldivian57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maldivian57.png; sourceTree = "<group>"; };
+		FFAC76F6129195B200C02958 /* mnbc_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mnbc_logo.png; sourceTree = "<group>"; };
 		FFDE312F12003D6700BCE4DC /* a_faruma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = a_faruma.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -428,6 +430,7 @@
 		3C82165911FAA53B00C3F693 /* UIGraphics */ = {
 			isa = PBXGroup;
 			children = (
+				FFAC76F6129195B200C02958 /* mnbc_logo.png */,
 				3C3877C111FC462100BE6B26 /* maldivian72.jpg */,
 				3CB4842C11FA32BA00A3A62C /* globe.png */,
 				3CB4842D11FA32BA00A3A62C /* haama.png */,
@@ -641,6 +644,7 @@
 				3C3094B0128A7D9000E360C5 /* haveeru.xib in Resources */,
 				3C3094DD128A7F9600E360C5 /* haveeruCell.xib in Resources */,
 				3C309582128A93D400E360C5 /* haveeruArticle.xib in Resources */,
+				FFAC76F7129195B200C02958 /* mnbc_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,7 +742,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Sofwathullah Mohamed";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -751,7 +755,7 @@
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-lz";
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "3DDC8E20-F7D4-4B41-A2B2-04C5C7A52515";
 				SDKROOT = iphoneos4.2;
 			};
 			name = Release;

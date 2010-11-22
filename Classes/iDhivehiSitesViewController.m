@@ -102,15 +102,16 @@
 		dict = [NSMutableDictionary dictionaryWithCapacity:1];
 		
         
-		pageURLs = [[NSArray alloc] initWithObjects:@"http://www.muraasil.com/start.html",@"http://www.haveeru.com.mv",@"http://mdp.org.mv/",@"http://minivannews.com/dhivehi/",@"http://www.miadhu.com/dv/",@"http://www.haamadaily.com/",@"http://jazeera.com.mv/",nil];
-		pageTitles = [[NSArray alloc] initWithObjects: @"Muraasil",@"Haveeru",@"MDP",@"Minivan News",@"Miadhu News",@"Haama Daily",@"Jazeera",nil];
-		pageIMGs = [[NSArray alloc] initWithObjects: @"muraasil.png",@"haveeru.png",@"mdp.png",@"minivan.png",@"miadhu.png",@"haama.png",@"jazeera.png",nil];
+		pageURLs = [[NSArray alloc] initWithObjects:@"http://www.muraasil.com/start.html",@"http://www.haveeru.com.mv",@"http://mdp.org.mv/",@"http://minivannews.com/dhivehi/",@"http://www.miadhu.com/dv/",@"http://www.haamadaily.com/",@"http://www.mnbc.com.mv/main/",nil];
+		pageTitles = [[NSArray alloc] initWithObjects: @"މުރާސިލް",@"ހަވީރު",@"އެމް.ޑީ.ޕީ",@"މިނިވަން ނިއުސް ",@"މިއަދު",@"ހާމަ",@"އެމް.އެން.ބީ.ސީ",nil];
+		pageIMGs = [[NSArray alloc] initWithObjects: @"muraasil.png",@"haveeru.png",@"mdp.png",@"minivan.png",@"miadhu.png",@"haama.png",@"mnbc_logo.png",nil];
 		
 		
 		NSMutableArray *list = [NSMutableArray arrayWithCapacity:1];
 		for (int i = 0; i < [pageURLs count]; i++) {
 			NSDictionary *newsite = [NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:[pageIMGs objectAtIndex:i],[pageURLs objectAtIndex:i],[pageTitles objectAtIndex:i],nil] forKey:@"site"];
 			[list addObject:newsite];
+
 		}
 		
 		[dict setObject:list forKey:@"dhivehisites"];
@@ -226,7 +227,10 @@
 	[[NSBundle mainBundle] loadNibNamed:@"cell" owner:self options:NULL];
 	cell = nibLoadedCell;
 	UILabel *val = (UILabel*) [cell viewWithTag:1];
+	val.font = [UIFont fontWithName:@"Mv Iyyu Normal" size:24];
 	val.text = [celldata objectAtIndex:2]; 
+	val.textAlignment = UITextAlignmentRight;
+
 	
 	//UILabel *url = (UILabel*) [cell viewWithTag:3];
 	//url.text = [celldata objectAtIndex:1]; 
@@ -234,6 +238,7 @@
 	UIImageView *image = (UIImageView*) [cell viewWithTag:2];
 	//val.text = [celldata objectAtIndex:2];  
 	image.image = [UIImage imageNamed:[celldata objectAtIndex:0]];
+	
 	
     
 	
@@ -319,7 +324,7 @@
 	
 	
 	
-	if([[celldata objectAtIndex:2] isEqualToString:@"Haveeru"]) {
+	if([[celldata objectAtIndex:2] isEqualToString:@"ހަވީރު"]) {
 		
 		self.navigationItem.backBarButtonItem =
 		[[UIBarButtonItem alloc] initWithTitle:@"Home"

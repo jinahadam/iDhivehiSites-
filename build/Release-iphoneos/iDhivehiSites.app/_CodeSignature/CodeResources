@@ -60,10 +60,6 @@
 		<data>
 		5C/bZR8WrawTkHcs2z04G3VzwPM=
 		</data>
-		<key>FM-MalithiUW46.ttf</key>
-		<data>
-		EdwG8GFDcWzHoMKI3KNAdznxy0M=
-		</data>
 		<key>Faruma.ttf</key>
 		<data>
 		el20KzWMPZYqCyqbLU9vWrSM4eY=
@@ -140,18 +136,6 @@
 		<data>
 		YrfcvxxHNsDZOtBRS0s7i4WQcMw=
 		</data>
-		<key>Radhafp.ttf</key>
-		<data>
-		VCg0teGWBoW/8B+e0rTATclQOSc=
-		</data>
-		<key>Radhap.ttf</key>
-		<data>
-		YuIn/2eurRQdx6/zbH5IYBl/yLM=
-		</data>
-		<key>Randp.ttf</key>
-		<data>
-		Ax8puxCcks+2+v5EM5ouW8MJKsw=
-		</data>
 		<key>Tahoma.ttf</key>
 		<data>
 		sNNs9aL750aj3Sd7/8Z1aoIIB6c=
@@ -160,45 +144,25 @@
 		<data>
 		0aEBhYTO/B9EUR0t69tlAonpKsg=
 		</data>
-		<key>Utheemp.ttf</key>
-		<data>
-		UIZT/lkF0EB6jO0eCQAsSqlwtMk=
-		</data>
-		<key>Waheedp.ttf</key>
-		<data>
-		bmKuG5O0kEBFajFTak3nS+0NIsE=
-		</data>
 		<key>a_faruma.ttf</key>
 		<data>
 		gKE0yb70rE4JpnhJvHKIeHWB3UA=
-		</data>
-		<key>addnew.png</key>
-		<data>
-		oTJPDhXi4IzPRTmJLWQHHPmyHV0=
 		</data>
 		<key>avas3__0.TTF</key>
 		<data>
 		Cxs1Oof4UdJFiLHPT+QJHqyPpPg=
 		</data>
-		<key>back.png</key>
-		<data>
-		OhJ6e0b5bw3oOlKn02CHNEAKLxg=
-		</data>
 		<key>browserView.nib</key>
 		<data>
-		Sah3klXCcxhBqjhCdeZIrPxQZBA=
+		qB0gUKpv0SVIBS3yOSaB7Q3Zi9E=
 		</data>
 		<key>cell.nib</key>
 		<data>
-		YX5Wf+m3kd98ntMzLFO7uqs+6Qc=
-		</data>
-		<key>cellSelected.png</key>
-		<data>
-		8P0cUxjaBpfeYM2ecAM9VzYKKy8=
+		lmrVBCD+Zh7ETIZBid6Fiu7mOkw=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		qB0gl3uhwS5cb7mBZFFXbM7hi/I=
+		xVu8hEJ2mYWbhYaI8NeD4Vh1hz4=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
@@ -206,19 +170,15 @@
 		</data>
 		<key>en.lproj/MainWindow.nib</key>
 		<data>
-		E4bsdB/biAYx17WRSU9CyRInnXI=
+		0xz1viumhqkvOZTcU2C8PAPl6MQ=
 		</data>
 		<key>en.lproj/iDhivehiSitesViewController.nib</key>
 		<data>
-		xSfiRrWY/0BBCCgMxfiRh7dlbQk=
+		AxkhwacU3cGUfRr8fDUx+V25t7A=
 		</data>
 		<key>faseyha.TTF</key>
 		<data>
 		RxZ394i20rTAhByUW5ps6mc15cQ=
-		</data>
-		<key>forward.png</key>
-		<data>
-		J8zlqLiIcBk4iAOzoBh+i9RXE0s=
 		</data>
 		<key>globe.png</key>
 		<data>
@@ -228,33 +188,25 @@
 		<data>
 		pjgdd49Bj2CDDTH1z3YHw6/Z9Ek=
 		</data>
+		<key>haveeru.nib</key>
+		<data>
+		Jns2n5Q2MbCWhSTsGNBPuQBlIOU=
+		</data>
 		<key>haveeru.png</key>
 		<data>
 		eyyqyT91m3hXPibSftMO1cVydnQ=
 		</data>
-		<key>home.png</key>
+		<key>haveeruArticle.nib</key>
 		<data>
-		FyG+qrBIHqoJd34/tulMxvGLqpQ=
+		6ckiR+pZbpQJF8uGjmb83rGvokA=
+		</data>
+		<key>haveeruCell.nib</key>
+		<data>
+		CvO8inkx8gjgI3OyrJ4gZjXpLL0=
 		</data>
 		<key>jazeera.png</key>
 		<data>
 		m5d/7nC3PK3sd3utJQuyMa403gc=
-		</data>
-		<key>kandyunicode.ttf</key>
-		<data>
-		BGU+z6X8NckEIESxrH4Rro14BQg=
-		</data>
-		<key>leave_arrow.png</key>
-		<data>
-		Ss8nH4ff7qlBnescQOAgr8GOKlM=
-		</data>
-		<key>lklug.ttf</key>
-		<data>
-		IJ9akche+6iYNH/aoDJUnYiedyI=
-		</data>
-		<key>loading.png</key>
-		<data>
-		mIFP8CeSl3d628Mnf0P6skMkkQY=
 		</data>
 		<key>maldivian57.jpg</key>
 		<data>
@@ -280,6 +232,10 @@
 		<data>
 		qA2q70vPOM1MRKDF3TEOvPO7WiY=
 		</data>
+		<key>mnbc_logo.png</key>
+		<data>
+		d1vO/U0NLrj2FIhSBO/4hLN705E=
+		</data>
 		<key>muraasil.png</key>
 		<data>
 		oZ/GxJpGmbj5TN3i6NK8x8w2izE=
@@ -288,21 +244,9 @@
 		<data>
 		p+P1UNnudfSW2+/ATViKoT9MAK0=
 		</data>
-		<key>new.png</key>
-		<data>
-		lLTLorSyUw6MEHDD6OWqKwWPAVY=
-		</data>
 		<key>newSite.nib</key>
 		<data>
-		hlwLS2WT8KxxLoUC2UF2BSwYs9U=
-		</data>
-		<key>newsicon.png</key>
-		<data>
-		Q2gGGtq16etQyaMQcGHI2yIaDY8=
-		</data>
-		<key>normalbg.png</key>
-		<data>
-		6S8gTnDoqeO1O/kDB5hXOprwjCA=
+		c/VzgXWyNacnT3vDWhE7OeyVUqY=
 		</data>
 	</dict>
 	<key>rules</key>
