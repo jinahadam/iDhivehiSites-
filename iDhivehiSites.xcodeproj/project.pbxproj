@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C2B910A1211BA440029764F /* libMobclix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91041211BA440029764F /* libMobclix.a */; };
 		3C2B91251211BC030029764F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91241211BC030029764F /* MediaPlayer.framework */; };
 		3C2B91271211BC030029764F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91261211BC030029764F /* SystemConfiguration.framework */; };
 		3C2B91C61211BD320029764F /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91C11211BD320029764F /* libOAuth.a */; };
@@ -83,6 +82,7 @@
 		3CB4844B11FA32BA00A3A62C /* MvElaafNormal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4843811FA32BA00A3A62C /* MvElaafNormal.ttf */; };
 		3CB4844D11FA32BA00A3A62C /* Tahoma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4843A11FA32BA00A3A62C /* Tahoma.ttf */; };
 		3CB4844E11FA32BA00A3A62C /* Thaana1U.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4843B11FA32BA00A3A62C /* Thaana1U.ttf */; };
+		809E3D0D12EFDA410005A7F5 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 809E3D0C12EFDA410005A7F5 /* libFlurry.a */; };
 		FF1B40FA11FD292F007BE622 /* A_REETHI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF1B40F911FD292F007BE622 /* A_REETHI.ttf */; };
 		FF1B40FC11FD2998007BE622 /* ILHAM.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FF1B40FB11FD2998007BE622 /* ILHAM.TTF */; };
 		FF1B411811FD4060007BE622 /* maldivian57.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF1B411711FD4060007BE622 /* maldivian57.jpg */; };
@@ -109,12 +109,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3C2B91041211BA440029764F /* libMobclix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobclix.a; sourceTree = "<group>"; };
-		3C2B91051211BA440029764F /* MCBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBrowserViewController.h; sourceTree = "<group>"; };
-		3C2B91061211BA440029764F /* Mobclix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobclix.h; sourceTree = "<group>"; };
-		3C2B91071211BA440029764F /* MobclixAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixAds.h; sourceTree = "<group>"; };
-		3C2B91081211BA440029764F /* MobclixDemographics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixDemographics.h; sourceTree = "<group>"; };
-		3C2B91091211BA440029764F /* MobclixFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixFeedback.h; sourceTree = "<group>"; };
 		3C2B91181211BB5B0029764F /* libMobclix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobclix.a; sourceTree = "<group>"; };
 		3C2B91241211BC030029764F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		3C2B91261211BC030029764F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -227,6 +221,9 @@
 		3CB4843811FA32BA00A3A62C /* MvElaafNormal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MvElaafNormal.ttf; sourceTree = "<group>"; };
 		3CB4843A11FA32BA00A3A62C /* Tahoma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tahoma.ttf; sourceTree = "<group>"; };
 		3CB4843B11FA32BA00A3A62C /* Thaana1U.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thaana1U.ttf; sourceTree = "<group>"; };
+		809E3D0A12EFDA410005A7F5 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		809E3D0B12EFDA410005A7F5 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
+		809E3D0C12EFDA410005A7F5 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		FF1B40F911FD292F007BE622 /* A_REETHI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = A_REETHI.ttf; sourceTree = "<group>"; };
 		FF1B40FB11FD2998007BE622 /* ILHAM.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ILHAM.TTF; sourceTree = "<group>"; };
 		FF1B411711FD4060007BE622 /* maldivian57.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maldivian57.jpg; sourceTree = "<group>"; };
@@ -262,7 +259,6 @@
 				3C9C038011FA2864000F1790 /* UIKit.framework in Frameworks */,
 				3C9C038211FA2864000F1790 /* Foundation.framework in Frameworks */,
 				3C9C038411FA2864000F1790 /* CoreGraphics.framework in Frameworks */,
-				3C2B910A1211BA440029764F /* libMobclix.a in Frameworks */,
 				3C2B91251211BC030029764F /* MediaPlayer.framework in Frameworks */,
 				3C2B91271211BC030029764F /* SystemConfiguration.framework in Frameworks */,
 				3C2B91C61211BD320029764F /* libOAuth.a in Frameworks */,
@@ -272,25 +268,13 @@
 				3C309652128A97FA00E360C5 /* MobileCoreServices.framework in Frameworks */,
 				3C309656128A987100E360C5 /* CFNetwork.framework in Frameworks */,
 				3C30965E128A98B500E360C5 /* libz.1.2.3.dylib in Frameworks */,
+				809E3D0D12EFDA410005A7F5 /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C2B91031211BA430029764F /* mobclix.lib */ = {
-			isa = PBXGroup;
-			children = (
-				3C2B91041211BA440029764F /* libMobclix.a */,
-				3C2B91051211BA440029764F /* MCBrowserViewController.h */,
-				3C2B91061211BA440029764F /* Mobclix.h */,
-				3C2B91071211BA440029764F /* MobclixAds.h */,
-				3C2B91081211BA440029764F /* MobclixDemographics.h */,
-				3C2B91091211BA440029764F /* MobclixFeedback.h */,
-			);
-			path = mobclix.lib;
-			sourceTree = "<group>";
-		};
 		3C2B952E121306DB0029764F /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -447,10 +431,10 @@
 		3C9C036D11FA2863000F1790 = {
 			isa = PBXGroup;
 			children = (
+				809E3D0912EFDA410005A7F5 /* FlurryLib */,
 				3C309588128A952400E360C5 /* ASIHTTPRequest */,
 				3C30943C128A77B100E360C5 /* MWFeedParser */,
 				3C309430128A77B100E360C5 /* Categories */,
-				3C2B91031211BA430029764F /* mobclix.lib */,
 				3C9C037411FA2864000F1790 /* Classes */,
 				3C9C037511FA2864000F1790 /* Other Sources */,
 				3C9C037611FA2864000F1790 /* Resources */,
@@ -537,6 +521,16 @@
 				3C9C037C11FA2864000F1790 /* iDhivehiSites.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		809E3D0912EFDA410005A7F5 /* FlurryLib */ = {
+			isa = PBXGroup;
+			children = (
+				809E3D0A12EFDA410005A7F5 /* FlurryAdDelegate.h */,
+				809E3D0B12EFDA410005A7F5 /* FlurryAPI.h */,
+				809E3D0C12EFDA410005A7F5 /* libFlurry.a */,
+			);
+			path = FlurryLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -778,6 +772,7 @@
 					"\"$(SRCROOT)/mobclix.lib\"",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Twitter+OAuth/SAOAuthTwitterEngine\"",
+					"\"$(SRCROOT)/FlurryLib\"",
 				);
 				PRODUCT_NAME = iDhivehiSites;
 				WRAPPER_EXTENSION = app;
@@ -801,6 +796,7 @@
 					"\"$(SRCROOT)/mobclix.lib\"",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Twitter+OAuth/SAOAuthTwitterEngine\"",
+					"\"$(SRCROOT)/FlurryLib\"",
 				);
 				PRODUCT_NAME = iDhivehiSites;
 				VALIDATE_PRODUCT = YES;

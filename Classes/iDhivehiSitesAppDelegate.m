@@ -22,8 +22,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 	
-	[Mobclix startWithApplicationId:@"D82BBEF8-21B3-4544-A493-7D8DCD9BC607"];
-	
+	[FlurryAPI startSession:@"6HZL2PU6FFV1IFGAXVWN"];
+
 	
     // Override point for customization after application launch.
      

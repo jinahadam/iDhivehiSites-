@@ -8,8 +8,7 @@
 
 
 #import <UIKit/UIKit.h>
-#import "Mobclix.h"
-
+#import "FlurryAPI.h"
 
 @class iDhivehiSitesViewController;
 
