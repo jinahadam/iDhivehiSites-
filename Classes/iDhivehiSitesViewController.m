@@ -102,7 +102,7 @@
 		dict = [NSMutableDictionary dictionaryWithCapacity:1];
 		
         
-		pageURLs = [[NSArray alloc] initWithObjects:@"http://www.muraasil.com/start.html",@"http://www.haveeru.com.mv",@"http://mdp.org.mv/",@"http://minivannews.com/dhivehi/",@"http://www.miadhu.com/dv/",@"http://www.haamadaily.com/",@"http://www.mnbc.com.mv/main/",nil];
+		pageURLs = [[NSArray alloc] initWithObjects:@"http://www.muraasil.com/start.html",@"http://semicolon.com.mv/haveeru",@"http://mdp.org.mv/",@"http://minivannews.com/dhivehi/",@"http://www.miadhu.com/dv/",@"http://www.haamadaily.com/",@"http://www.mnbc.com.mv/main/",nil];
 		pageTitles = [[NSArray alloc] initWithObjects: @"މުރާސިލް",@"ހަވީރު",@"އެމް.ޑީ.ޕީ",@"މިނިވަން ނިއުސް ",@"މިއަދު",@"ހާމަ",@"އެމް.އެން.ބީ.ސީ",nil];
 		pageIMGs = [[NSArray alloc] initWithObjects: @"muraasil.png",@"haveeru.png",@"mdp.png",@"minivan.png",@"miadhu.png",@"haama.png",@"mnbc_logo.png",nil];
 		
@@ -322,25 +322,7 @@
     
 	
 	
-	
-	
-	if([[celldata objectAtIndex:2] isEqualToString:@"ހަވީރު"]) {
-		
-		self.navigationItem.backBarButtonItem =
-		[[UIBarButtonItem alloc] initWithTitle:@"Home"
-										 style: UIBarButtonItemStyleBordered
-										target:nil
-										action:nil];
-		
-		haveeru *browser = [[haveeru alloc] init];
-		
-		[self.navigationController pushViewController:browser animated:YES];
-		
-		[browser release];
-		
-		
-	} else {
-		
+			
 		
 		
 		self.navigationItem.backBarButtonItem =
@@ -365,7 +347,7 @@
 		[browser release];
 		
 		
-	}
+	
 	
 }
 

@@ -150,12 +150,16 @@
 	if (webView.loading) {
 		UIApplication* app = [UIApplication sharedApplication];
 		app.networkActivityIndicatorVisible = YES; 
+        
 	}
 }
 - (void)checkNotLoad {
 	if (!(webView.loading)) {
 		UIApplication* app = [UIApplication sharedApplication];
-		app.networkActivityIndicatorVisible = NO; 	}
+		app.networkActivityIndicatorVisible = NO; 	
+        NSLog(@"%@", currentURL);
+    
+    }
 }
 -(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
 	if((self.interfaceOrientation == UIDeviceOrientationLandscapeLeft) || (self.interfaceOrientation == UIDeviceOrientationLandscapeRight)){

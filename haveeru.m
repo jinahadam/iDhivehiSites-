@@ -37,7 +37,7 @@
 																							action:@selector(refresh)] autorelease];
 	
 	// Create parser
-	feedParser = [[MWFeedParser alloc] initWithFeedURL:@"http://www.haveeru.com.mv/rss/?category=local&lang=dhivehi&limit=10"];
+	feedParser = [[MWFeedParser alloc] initWithFeedURL:@"http://www.haveeru.com.mv/xml/?lang=dhivehi&category=local&limit=10"];
 	feedParser.delegate = self;
 	feedParser.feedParseType = ParseTypeItemsOnly; // Parse feed info and all items
 	feedParser.connectionType = ConnectionTypeAsynchronously;

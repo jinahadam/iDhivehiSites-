@@ -775,6 +775,7 @@
 					"\"$(SRCROOT)/FlurryLib\"",
 				);
 				PRODUCT_NAME = iDhivehiSites;
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -799,6 +800,7 @@
 					"\"$(SRCROOT)/FlurryLib\"",
 				);
 				PRODUCT_NAME = iDhivehiSites;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
