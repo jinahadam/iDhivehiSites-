@@ -26,11 +26,11 @@
 }
 
 -(IBAction) goHome;
-@property (retain) IBOutlet UIButton *home;
-@property (retain) IBOutlet UIButton *backward;
-@property (retain) IBOutlet UIButton *forward;
-@property (retain) NSURL *currentURL;
-@property (retain) IBOutlet UIWebView *webView;
-@property (retain) NSString *url;
-@property (retain) NSString *siteName;
+@property (strong) IBOutlet UIButton *home;
+@property (strong) IBOutlet UIButton *backward;
+@property (strong) IBOutlet UIButton *forward;
+@property (strong) NSURL *currentURL;
+@property (strong) IBOutlet UIWebView *webView;
+@property (strong) NSString *url;
+@property (strong) NSString *siteName;
 @end

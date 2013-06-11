@@ -1,20 +1,20 @@
 /*
- Copyright (C) 2009,2010 Stig Brautaset. All rights reserved.
- 
+ Copyright (C) 2009-2011 Stig Brautaset. All rights reserved.
+
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
- 
+
  * Redistributions of source code must retain the above copyright notice, this
    list of conditions and the following disclaimer.
- 
+
  * Redistributions in binary form must reproduce the above copyright notice,
    this list of conditions and the following disclaimer in the documentation
    and/or other materials provided with the distribution.
- 
+
  * Neither the name of the author nor the names of its contributors may be used
    to endorse or promote products derived from this software without specific
    prior written permission.
- 
+
  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
@@ -28,60 +28,9 @@
  */
 
 #import "SBJsonParser.h"
+#import "SBJsonWriter.h"
 #import "SBJsonStreamParser.h"
 #import "SBJsonStreamParserAdapter.h"
-#import "SBJsonStreamParserAccumulator.h"
+#import "SBJsonStreamWriter.h"
+#import "SBJsonStreamTokeniser.h"
 
-@implementation SBJsonParser
-
-@synthesize maxDepth;
-@synthesize error;
-
-- (id)init {
-    self = [super init];
-    if (self)
-        self.maxDepth = 32u;
-    return self;
-}
-
-
-#pragma mark Methods
-
-- (id)objectWithData:(NSData *)data {
-
-    if (!data) {
-        self.error = @"Input was 'nil'";
-        return nil;
-    }
-
-	SBJsonStreamParserAccumulator *accumulator = [[SBJsonStreamParserAccumulator alloc] init];
-    
-    SBJsonStreamParserAdapter *adapter = [[SBJsonStreamParserAdapter alloc] init];
-    adapter.delegate = accumulator;
-	
-	SBJsonStreamParser *parser = [[SBJsonStreamParser alloc] init];
-	parser.maxDepth = self.maxDepth;
-	parser.delegate = adapter;
-	
-	switch ([parser parse:data]) {
-		case SBJsonStreamParserComplete:
-            return accumulator.value;
-			break;
-			
-		case SBJsonStreamParserWaitingForData:
-		    self.error = @"Unexpected end of input";
-			break;
-
-		case SBJsonStreamParserError:
-		    self.error = parser.error;
-			break;
-	}
-	
-	return nil;
-}
-
-- (id)objectWithString:(NSString *)string {
-	return [self objectWithData:[string dataUsingEncoding:NSUTF8StringEncoding]];
-}
-
-@end

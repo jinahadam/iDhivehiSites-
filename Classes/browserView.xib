@@ -16,10 +16,9 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <webView multipleTouchEnabled="YES" alpha="0.72535210847854614" contentMode="scaleToFill" scalesPageToFit="YES" id="7">
+                <webView multipleTouchEnabled="YES" contentMode="scaleToFill" scalesPageToFit="YES" id="7">
                     <rect key="frame" x="-1" y="-7" width="331" height="467"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="17"/>
                     </connections>
@@ -29,4 +28,17 @@
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
         </view>
     </objects>
+    <classes>
+        <class className="browserView" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/browserView.h"/>
+            <relationships>
+                <relationship kind="action" name="goHome"/>
+                <relationship kind="outlet" name="active" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="backward" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="forward" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="home" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
 </document>

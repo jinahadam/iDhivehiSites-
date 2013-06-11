@@ -37,7 +37,6 @@
 		dateFormatter = [[NSDateFormatter alloc] init];
 		[dateFormatter setLocale:en_US_POSIX];
 		[dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
-		[en_US_POSIX release];
 	}
 
 	// Process
@@ -93,7 +92,6 @@
 		dateFormatter = [[NSDateFormatter alloc] init];
 		[dateFormatter setLocale:en_US_POSIX];
 		[dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
-		[en_US_POSIX release];
 	}
 	
 	// Process date

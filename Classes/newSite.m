@@ -35,7 +35,7 @@
 }
 
 -(IBAction) goBack {
-	[self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:0] animated:YES];
+	[self.navigationController popToViewController:(self.navigationController.viewControllers)[0] animated:YES];
 }
 
 
@@ -50,22 +50,22 @@
 	
 	
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *documentsDirectory = paths[0];
 	NSString *plistPath = [documentsDirectory stringByAppendingPathComponent:@"sites.plist"];
 	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithContentsOfFile:plistPath] ;
 	
-	NSMutableArray *list = [dict objectForKey:@"dhivehisites"];
+	NSMutableArray *list = dict[@"dhivehisites"];
 	
-	NSDictionary *newsite = [NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:@"globe.png",urlstring,name.text,nil] forKey:@"site"];
+	NSDictionary *newsite = @{@"site": @[@"globe.png",urlstring,name.text]};
 	[list addObject:newsite];
 	
 	
-	[dict setObject:list forKey:@"dhivehisites"];
+	dict[@"dhivehisites"] = list;
 	
 	[dict writeToFile:plistPath atomically:YES];
 
 	
-	[self.navigationController popToViewController:[self.navigationController.viewControllers objectAtIndex:0] animated:YES];
+	[self.navigationController popToViewController:(self.navigationController.viewControllers)[0] animated:YES];
 
 }
 
@@ -80,16 +80,16 @@
 	
 	
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *documentsDirectory = paths[0];
 	NSString *plistPath = [documentsDirectory stringByAppendingPathComponent:@"sites.plist"];
 	NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithContentsOfFile:plistPath] ;
 	
-	NSMutableArray *list = [dict objectForKey:@"dhivehisites"];
+	NSMutableArray *list = dict[@"dhivehisites"];
 	
-	NSDictionary *newsite = [NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:@"globe.png",urlstring,name.text,nil] forKey:@"site"];
+	NSDictionary *newsite = @{@"site": @[@"globe.png",urlstring,name.text]};
 	[list addObject:newsite];
 	
-	[dict setObject:list forKey:@"dhivehisites"];
+	dict[@"dhivehisites"] = list;
 	
 	[dict writeToFile:plistPath atomically:YES];
 
@@ -107,7 +107,6 @@
 	
 	[self.navigationController pushViewController:browser animated:YES];
 	
-	[browser release];
 	
 	
 	
@@ -137,9 +136,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end

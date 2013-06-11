@@ -20,8 +20,8 @@
 }
 -(IBAction)addNew;
 - (NSString *) applicationDocumentsDirectory;
-@property (nonatomic, retain) IBOutlet UITableViewCell *nibLoadedCell;
-@property (nonatomic, retain) IBOutlet UITableView *table;
+@property (nonatomic, strong) IBOutlet UITableViewCell *nibLoadedCell;
+@property (nonatomic, strong) IBOutlet UITableView *table;
 
 @end
 

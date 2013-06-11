@@ -1,5 +1,5 @@
 /*
- Copyright (C) 2009,2010 Stig Brautaset. All rights reserved.
+ Copyright (C) 2011 Stig Brautaset. All rights reserved.
  
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
@@ -27,61 +27,28 @@
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#import "SBJsonParser.h"
-#import "SBJsonStreamParser.h"
-#import "SBJsonStreamParserAdapter.h"
-#import "SBJsonStreamParserAccumulator.h"
 
-@implementation SBJsonParser
 
-@synthesize maxDepth;
-@synthesize error;
+#import "SBJsonStreamWriterAccumulator.h"
+
+
+@implementation SBJsonStreamWriterAccumulator
+
+@synthesize data;
 
 - (id)init {
     self = [super init];
-    if (self)
-        self.maxDepth = 32u;
+    if (self) {
+        data = [[NSMutableData alloc] initWithCapacity:8096u];
+    }
     return self;
 }
 
 
-#pragma mark Methods
+#pragma mark SBJsonStreamWriterDelegate
 
-- (id)objectWithData:(NSData *)data {
-
-    if (!data) {
-        self.error = @"Input was 'nil'";
-        return nil;
-    }
-
-	SBJsonStreamParserAccumulator *accumulator = [[SBJsonStreamParserAccumulator alloc] init];
-    
-    SBJsonStreamParserAdapter *adapter = [[SBJsonStreamParserAdapter alloc] init];
-    adapter.delegate = accumulator;
-	
-	SBJsonStreamParser *parser = [[SBJsonStreamParser alloc] init];
-	parser.maxDepth = self.maxDepth;
-	parser.delegate = adapter;
-	
-	switch ([parser parse:data]) {
-		case SBJsonStreamParserComplete:
-            return accumulator.value;
-			break;
-			
-		case SBJsonStreamParserWaitingForData:
-		    self.error = @"Unexpected end of input";
-			break;
-
-		case SBJsonStreamParserError:
-		    self.error = parser.error;
-			break;
-	}
-	
-	return nil;
-}
-
-- (id)objectWithString:(NSString *)string {
-	return [self objectWithData:[string dataUsingEncoding:NSUTF8StringEncoding]];
+- (void)writer:(SBJsonStreamWriter *)writer appendBytes:(const void *)bytes length:(NSUInteger)length {
+    [data appendBytes:bytes length:length];
 }
 
 @end

@@ -16,9 +16,9 @@
 -(IBAction) goBack;
 
 
-@property (nonatomic, retain) NSNumber *messageId;
-@property (nonatomic, retain) IBOutlet UITextField *name;
-@property (nonatomic, retain) IBOutlet UITextField *url;
+@property (nonatomic, strong) NSNumber *messageId;
+@property (nonatomic, strong) IBOutlet UITextField *name;
+@property (nonatomic, strong) IBOutlet UITextField *url;
 
 
 @end

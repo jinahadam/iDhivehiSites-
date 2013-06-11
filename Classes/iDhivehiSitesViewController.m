@@ -26,7 +26,6 @@
 #import "iDhivehiSitesViewController.h"
 #import "newSite.h"
 #import "browserView.h"
-#import "haveeru.h"
 
 @implementation iDhivehiSitesViewController
 
@@ -42,13 +41,13 @@
 -(void) viewWillAppear:(BOOL)animated {
 	
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *documentsDirectory = paths[0];
 	
 	plistPath = [documentsDirectory stringByAppendingPathComponent:@"sites.plist"];
 	dict = [NSMutableDictionary dictionaryWithContentsOfFile:plistPath] ;
 	
 	
-	[tableData replaceObjectAtIndex:0 withObject:dict];
+	tableData[0] = dict;
 	[table reloadData];
      
 }
@@ -81,11 +80,10 @@
 	
 	UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem: UIBarButtonSystemItemAdd target:self action:@selector(addNew)];   
 	self.navigationItem.rightBarButtonItem = anotherButton;
-	[anotherButton release];
 	
 	
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-	NSString *documentsDirectory = [paths objectAtIndex:0];
+	NSString *documentsDirectory = paths[0];
 	
 	plistPath = [documentsDirectory stringByAppendingPathComponent:@"sites.plist"];
     
@@ -109,12 +107,12 @@
 		
 		NSMutableArray *list = [NSMutableArray arrayWithCapacity:1];
 		for (int i = 0; i < [pageURLs count]; i++) {
-			NSDictionary *newsite = [NSDictionary dictionaryWithObject:[NSArray arrayWithObjects:[pageIMGs objectAtIndex:i],[pageURLs objectAtIndex:i],[pageTitles objectAtIndex:i],nil] forKey:@"site"];
+			NSDictionary *newsite = @{@"site": @[pageIMGs[i],pageURLs[i],pageTitles[i]]};
 			[list addObject:newsite];
 
 		}
 		
-		[dict setObject:list forKey:@"dhivehisites"];
+		dict[@"dhivehisites"] = list;
 		
 		[dict writeToFile:plistPath atomically:YES];
 		
@@ -141,17 +139,15 @@
 	NSNumber *mid = [[NSNumber alloc] init];
 	
 	
-	mid = [NSNumber numberWithDouble:1.5];
+	mid = @1.5;
 	
 	new.messageId = mid;
 	
 	[self.navigationController pushViewController:new animated:YES];
 	
-	[new release];
 	
 	mid = nil;
 	
-	[mid release];
 
 	
 	
@@ -159,7 +155,7 @@
 
 - (NSString *) applicationDocumentsDirectory {
 	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES); 
-	NSString *documentsDirectoryPath = [paths objectAtIndex:0];
+	NSString *documentsDirectoryPath = paths[0];
 	return documentsDirectoryPath;
 }
 
@@ -206,12 +202,12 @@
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 	//NSLog(@"%i",[[[tableData objectAtIndex:0] objectForKey:@"dhivehisites"] count]);
-     return [[[tableData objectAtIndex:0] objectForKey:@"dhivehisites"] count];
+     return [tableData[0][@"dhivehisites"] count];
 	//return 0;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 60;
+    return 70;
 }
 
 
@@ -219,17 +215,17 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell;	
-	NSArray *data = [[tableData objectAtIndex:0] objectForKey:@"dhivehisites"];
-	NSDictionary *row = [data objectAtIndex:indexPath.row];
-	NSArray *celldata = [row objectForKey:@"site"];
+	NSArray *data = tableData[0][@"dhivehisites"];
+	NSDictionary *row = data[indexPath.row];
+	NSArray *celldata = row[@"site"];
 	
     
 	[[NSBundle mainBundle] loadNibNamed:@"cell" owner:self options:NULL];
 	cell = nibLoadedCell;
 	UILabel *val = (UILabel*) [cell viewWithTag:1];
 	val.font = [UIFont fontWithName:@"Mv Iyyu Normal" size:24];
-	val.text = [celldata objectAtIndex:2]; 
-	val.textAlignment = UITextAlignmentRight;
+	val.text = celldata[2]; 
+	//val.textAlignment = UITextAlignmentRight;
 
 	
 	//UILabel *url = (UILabel*) [cell viewWithTag:3];
@@ -237,7 +233,7 @@
 	
 	UIImageView *image = (UIImageView*) [cell viewWithTag:2];
 	//val.text = [celldata objectAtIndex:2];  
-	image.image = [UIImage imageNamed:[celldata objectAtIndex:0]];
+	image.image = [UIImage imageNamed:celldata[0]];
 	
 	
     
@@ -272,21 +268,21 @@
         // Delete the row from the data source.
 		
 		NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-		NSString *documentsDirectory = [paths objectAtIndex:0];
+		NSString *documentsDirectory = paths[0];
 		plistPath = [documentsDirectory stringByAppendingPathComponent:@"sites.plist"];
 		dict = [NSMutableDictionary dictionaryWithContentsOfFile:plistPath] ;
 		
-		NSMutableArray *list = [dict objectForKey:@"dhivehisites"];
+		NSMutableArray *list = dict[@"dhivehisites"];
 		
 		[list removeObjectAtIndex:indexPath.row];		
 		
-		[dict setObject:list forKey:@"dhivehisites"];
+		dict[@"dhivehisites"] = list;
 		
 		[dict writeToFile:plistPath atomically:YES];
 		
-		[tableData replaceObjectAtIndex:0 withObject:dict];
+		tableData[0] = dict;
 		
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
@@ -316,9 +312,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-	NSArray *data = [[tableData objectAtIndex:0] objectForKey:@"dhivehisites"];
-	NSDictionary *row = [data objectAtIndex:indexPath.row];
-	NSArray *celldata = [row objectForKey:@"site"];
+	NSArray *data = tableData[0][@"dhivehisites"];
+	NSDictionary *row = data[indexPath.row];
+	NSArray *celldata = row[@"site"];
     
 	
 	
@@ -332,19 +328,18 @@
 										action:nil];
 		
 				
-		NSString * url = [celldata objectAtIndex:1];
+		NSString * url = celldata[1];
 		//UIImage * img = [UIImage imageNamed: @"loading.png"];
 		
 		browserView *browser = [[browserView alloc] initWithNibName:@"browserView" bundle:nil];
 		
 		browser.url = url;
-		browser.siteName =  [celldata objectAtIndex:2];
+		browser.siteName =  celldata[2];
 		
 		
 		
 		[self.navigationController pushViewController:browser animated:YES];
 		
-		[browser release];
 		
 		
 	
@@ -368,9 +363,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 
