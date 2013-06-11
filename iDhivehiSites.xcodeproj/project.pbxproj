@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3C2B91251211BC030029764F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91241211BC030029764F /* MediaPlayer.framework */; };
 		3C2B91271211BC030029764F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91261211BC030029764F /* SystemConfiguration.framework */; };
-		3C2B91C61211BD320029764F /* libOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91C11211BD320029764F /* libOAuth.a */; };
 		3C2B91C71211BD320029764F /* libml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91C21211BD320029764F /* libml.a */; };
 		3C2B91C81211BD330029764F /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B91C31211BD320029764F /* libstdc++.dylib */; };
 		3C2B921F1211BD720029764F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B921E1211BD720029764F /* libxml2.dylib */; };
@@ -40,7 +39,6 @@
 		3C3095A7128A96ED00E360C5 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3095A6128A96ED00E360C5 /* Reachability.m */; };
 		3C309652128A97FA00E360C5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C309651128A97FA00E360C5 /* MobileCoreServices.framework */; };
 		3C309656128A987100E360C5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C309655128A987100E360C5 /* CFNetwork.framework */; };
-		3C30965E128A98B500E360C5 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C30965D128A98B500E360C5 /* libz.1.2.3.dylib */; };
 		3C38764F11FC21BE00BE6B26 /* newSite.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C38764E11FC21BE00BE6B26 /* newSite.xib */; };
 		3C38765211FC21E200BE6B26 /* newSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C38765111FC21E200BE6B26 /* newSite.m */; };
 		3C3876C411FC2C1500BE6B26 /* browserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3876C211FC2C1500BE6B26 /* browserView.m */; };
@@ -82,7 +80,8 @@
 		3CB4844B11FA32BA00A3A62C /* MvElaafNormal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4843811FA32BA00A3A62C /* MvElaafNormal.ttf */; };
 		3CB4844D11FA32BA00A3A62C /* Tahoma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4843A11FA32BA00A3A62C /* Tahoma.ttf */; };
 		3CB4844E11FA32BA00A3A62C /* Thaana1U.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CB4843B11FA32BA00A3A62C /* Thaana1U.ttf */; };
-		809E3D0D12EFDA410005A7F5 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 809E3D0C12EFDA410005A7F5 /* libFlurry.a */; };
+		80E2C84917675AAC00574495 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E2C84817675AAC00574495 /* libz.1.2.5.dylib */; };
+		80E2C84B17675AFF00574495 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80E2C84A17675AFF00574495 /* Default-568h@2x.png */; };
 		FF1B40FA11FD292F007BE622 /* A_REETHI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF1B40F911FD292F007BE622 /* A_REETHI.ttf */; };
 		FF1B40FC11FD2998007BE622 /* ILHAM.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FF1B40FB11FD2998007BE622 /* ILHAM.TTF */; };
 		FF1B411811FD4060007BE622 /* maldivian57.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF1B411711FD4060007BE622 /* maldivian57.jpg */; };
@@ -221,9 +220,8 @@
 		3CB4843811FA32BA00A3A62C /* MvElaafNormal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MvElaafNormal.ttf; sourceTree = "<group>"; };
 		3CB4843A11FA32BA00A3A62C /* Tahoma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tahoma.ttf; sourceTree = "<group>"; };
 		3CB4843B11FA32BA00A3A62C /* Thaana1U.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thaana1U.ttf; sourceTree = "<group>"; };
-		809E3D0A12EFDA410005A7F5 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
-		809E3D0B12EFDA410005A7F5 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
-		809E3D0C12EFDA410005A7F5 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		80E2C84817675AAC00574495 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		80E2C84A17675AFF00574495 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FF1B40F911FD292F007BE622 /* A_REETHI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = A_REETHI.ttf; sourceTree = "<group>"; };
 		FF1B40FB11FD2998007BE622 /* ILHAM.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ILHAM.TTF; sourceTree = "<group>"; };
 		FF1B411711FD4060007BE622 /* maldivian57.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maldivian57.jpg; sourceTree = "<group>"; };
@@ -256,19 +254,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E2C84917675AAC00574495 /* libz.1.2.5.dylib in Frameworks */,
 				3C9C038011FA2864000F1790 /* UIKit.framework in Frameworks */,
 				3C9C038211FA2864000F1790 /* Foundation.framework in Frameworks */,
 				3C9C038411FA2864000F1790 /* CoreGraphics.framework in Frameworks */,
 				3C2B91251211BC030029764F /* MediaPlayer.framework in Frameworks */,
 				3C2B91271211BC030029764F /* SystemConfiguration.framework in Frameworks */,
-				3C2B91C61211BD320029764F /* libOAuth.a in Frameworks */,
 				3C2B91C71211BD320029764F /* libml.a in Frameworks */,
 				3C2B91C81211BD330029764F /* libstdc++.dylib in Frameworks */,
 				3C2B921F1211BD720029764F /* libxml2.dylib in Frameworks */,
 				3C309652128A97FA00E360C5 /* MobileCoreServices.framework in Frameworks */,
 				3C309656128A987100E360C5 /* CFNetwork.framework in Frameworks */,
-				3C30965E128A98B500E360C5 /* libz.1.2.3.dylib in Frameworks */,
-				809E3D0D12EFDA410005A7F5 /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +427,7 @@
 		3C9C036D11FA2863000F1790 = {
 			isa = PBXGroup;
 			children = (
-				809E3D0912EFDA410005A7F5 /* FlurryLib */,
+				80E2C84A17675AFF00574495 /* Default-568h@2x.png */,
 				3C309588128A952400E360C5 /* ASIHTTPRequest */,
 				3C30943C128A77B100E360C5 /* MWFeedParser */,
 				3C309430128A77B100E360C5 /* Categories */,
@@ -498,6 +494,7 @@
 		3C9C037711FA2864000F1790 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80E2C84817675AAC00574495 /* libz.1.2.5.dylib */,
 				3C2B91C11211BD320029764F /* libOAuth.a */,
 				3C2B91C21211BD320029764F /* libml.a */,
 				3C2B91C31211BD320029764F /* libstdc++.dylib */,
@@ -521,16 +518,6 @@
 				3C9C037C11FA2864000F1790 /* iDhivehiSites.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		809E3D0912EFDA410005A7F5 /* FlurryLib */ = {
-			isa = PBXGroup;
-			children = (
-				809E3D0A12EFDA410005A7F5 /* FlurryAdDelegate.h */,
-				809E3D0B12EFDA410005A7F5 /* FlurryAPI.h */,
-				809E3D0C12EFDA410005A7F5 /* libFlurry.a */,
-			);
-			path = FlurryLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -558,6 +545,8 @@
 /* Begin PBXProject section */
 		3C9C036F11FA2863000F1790 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 3C9C037211FA2863000F1790 /* Build configuration list for PBXProject "iDhivehiSites" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -633,6 +622,7 @@
 				FF2454771207C09700B0F1AE /* Mv Elaaf Normal.otf.ttf in Resources */,
 				FF2454791207C0C700B0F1AE /* Mv Elaaf Formal.ttf in Resources */,
 				FF24547D1207C1A700B0F1AE /* MvSehgaFB.ttf in Resources */,
+				80E2C84B17675AFF00574495 /* Default-568h@2x.png in Resources */,
 				FF24548B1207C5A100B0F1AE /* MvMAGRoundBold.ttf in Resources */,
 				FF2454B11207C83500B0F1AE /* maldivian57.png in Resources */,
 				3C3094B0128A7D9000E360C5 /* haveeru.xib in Resources */,
@@ -712,45 +702,45 @@
 		3C9C039811FA2864000F1790 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
 					src/,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "-lz";
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos4.2;
+				SDKROOT = iphoneos7.0;
 			};
 			name = Debug;
 		};
 		3C9C039911FA2864000F1790 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Sofwathullah Mohamed";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					/usr/include/libxml2,
 					src/,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-lz";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "3DDC8E20-F7D4-4B41-A2B2-04C5C7A52515";
-				SDKROOT = iphoneos4.2;
+				PROVISIONING_PROFILE = "D3D14ECA-09AC-4827-9999-B1C15CFE4218";
+				SDKROOT = iphoneos7.0;
 			};
 			name = Release;
 		};
@@ -767,6 +757,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDhivehiSites_Prefix.pch;
 				INFOPLIST_FILE = "iDhivehiSites-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/mobclix.lib\"",
@@ -776,6 +767,7 @@
 				);
 				PRODUCT_NAME = iDhivehiSites;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -792,6 +784,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iDhivehiSites_Prefix.pch;
 				INFOPLIST_FILE = "iDhivehiSites-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/mobclix.lib\"",
@@ -801,6 +794,7 @@
 				);
 				PRODUCT_NAME = iDhivehiSites;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

@@ -22,7 +22,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 	
-	[FlurryAPI startSession:@"6HZL2PU6FFV1IFGAXVWN"];
+	//[FlurryAPI startSession:@"6HZL2PU6FFV1IFGAXVWN"];
 
 	
     // Override point for customization after application launch.

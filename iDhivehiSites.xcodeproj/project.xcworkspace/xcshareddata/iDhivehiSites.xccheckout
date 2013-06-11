@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>62790E0E-8ACE-4579-B9E4-152BFE68A752</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iDhivehiSites</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F1C3D216-9661-4BC4-B8AE-BA51C8505361</key>
+		<string>https://github.com/jinahadam/iDhivehiSites-</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iDhivehiSites.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F1C3D216-9661-4BC4-B8AE-BA51C8505361</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jinahadam/iDhivehiSites-</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F1C3D216-9661-4BC4-B8AE-BA51C8505361</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1C3D216-9661-4BC4-B8AE-BA51C8505361</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iDhivehiSites-</string>
+		</dict>
+	</array>
+</dict>
+</plist>
